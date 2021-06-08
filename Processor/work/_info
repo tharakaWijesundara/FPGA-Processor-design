@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vregistor_no_inc
+!s110 1602835022
+!i10b 1
+!s100 REo>B?bM[C]nJI;HDICz;0
+I@E[?C7F7?hZY`SBlJhAjA1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Other Activities/ModelSim/Processor/Processor 1
+w1602834902
+8C:\Other Activities\ModelSim\Processor\Processor 1\registor_no_inc.v
+FC:\Other Activities\ModelSim\Processor\Processor 1\registor_no_inc.v
+L0 1
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1602835022.000000
+!s107 C:\Other Activities\ModelSim\Processor\Processor 1\registor_no_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Other Activities\ModelSim\Processor\Processor 1\registor_no_inc.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vregistor_with_inc
+!s110 1602834537
+!i10b 1
+!s100 9^k6C9eTO2X_U[d<ZZ0OW3
+I3dZEPSe]d>Xe1JK_nkGPz1
+R0
+R1
+w1602834530
+8C:/Other Activities/ModelSim/Processor/Processor 1/registor_with_inc.v
+FC:/Other Activities/ModelSim/Processor/Processor 1/registor_with_inc.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1602834537.000000
+!s107 C:/Other Activities/ModelSim/Processor/Processor 1/registor_with_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Other Activities/ModelSim/Processor/Processor 1/registor_with_inc.v|
+!s101 -O0
+!i113 1
+R3
+vstateMachine
+!s110 1603637857
+!i10b 1
+!s100 cCdPaBg`_fDW:a:02d=kI2
+IfhV2RV`?HDPeeEHYK50kD1
+R0
+R1
+w1603617461
+8C:/Other Activities/ModelSim/Processor/Processor 1/stateMachine.v
+FC:/Other Activities/ModelSim/Processor/Processor 1/stateMachine.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1603637857.000000
+!s107 C:/Other Activities/ModelSim/Processor/Processor 1/stateMachine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Other Activities/ModelSim/Processor/Processor 1/stateMachine.v|
+!s101 -O0
+!i113 1
+R3
+nstate@machine
+vtestBenchSM
+!s110 1604817263
+!i10b 1
+!s100 7TQ@]7e[L^?<eiDo>87<P1
+IVLV3DAnJD>VEQM[SJOm^j0
+R0
+R1
+w1604817262
+Z4 8C:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v
+Z5 FC:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1604817263.000000
+!s107 C:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|C:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v|
+!s101 -O0
+!i113 1
+R3
+ntest@bench@s@m
+vtestSM
+!s110 1604814491
+!i10b 1
+!s100 QN=Sa78?Si3OzA?CZainE3
+IBAi<`@P63?i]IO=>_gYHD0
+R0
+R1
+w1604814489
+R4
+R5
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1604814491.000000
+!s107 C:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v|
+R6
+!s101 -O0
+!i113 1
+R3
+ntest@s@m

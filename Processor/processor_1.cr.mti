@@ -1,0 +1,22 @@
+{C:/Other Activities/ModelSim/Processor/Processor 1/stateMachine.v} {1 {vlog -work work -stats=none {C:/Other Activities/ModelSim/Processor/Processor 1/stateMachine.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module stateMachine
+
+Top level modules:
+	stateMachine
+
+} {} {}} {C:/Other Activities/ModelSim/Processor/Processor 1/registor_with_inc.v} {1 {vlog -work work -stats=none {C:/Other Activities/ModelSim/Processor/Processor 1/registor_with_inc.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module registor_with_inc
+
+Top level modules:
+	registor_with_inc
+
+} {} {}} {C:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v} {1 {vlog -work work -stats=none {C:/Other Activities/ModelSim/Processor/Processor 1/testBenchSM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testBenchSM
+
+Top level modules:
+	testBenchSM
+
+} {} {}}
