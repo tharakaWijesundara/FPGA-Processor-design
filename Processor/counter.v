@@ -2,7 +2,6 @@ module counter (
     input clk,
     input [5:0] IRIn,
     input start,
-    input z_flag,
     output reg[5:0] mIR,
     output [5:0] IROut
 );
@@ -45,7 +44,12 @@ always @(posedge clk) begin
         6'd1 : begin
             mIR <= FETCH[counter];
             counter <= counter + 1;
-            if(counter == FETCH.size()-1)    counter <= 0;
+            if(counter == FETCH.size()-1)    
+            begin
+                counter <= 0;
+                
+            end
+            
         end
         6'd4 : begin
             mIR <= LDAC[counter];

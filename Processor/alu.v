@@ -6,7 +6,7 @@
 module alu (
     input [15:0] A,
     input [15:0] B,
-    input [1:0] select,
+    input [2:0] select,
     output reg z_flag,
     output reg [15:0] out
 );
