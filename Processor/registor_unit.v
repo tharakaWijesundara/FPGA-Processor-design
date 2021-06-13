@@ -7,6 +7,7 @@ module registor_unit(
     input RB_INC,
     input RC_INC,
     input [15:0] ram_out,
+    input [15:0] ram_in,
     input [5:0] counter_out,
     input [9:0] C_bus_ctrl_sig,
     input [15:0] c_bus_in,
@@ -18,7 +19,6 @@ module registor_unit(
 );
 
 reg [15:0] DR_out;
-reg [15:0] AR_out;
 reg [15:0] R1_out;
 reg [15:0] R2_out;
 reg [15:0] R3_out;
@@ -26,7 +26,6 @@ reg [15:0] RA_out;
 reg [15:0] RB_out;
 reg [15:0] RC_out;
 reg [15:0] AC_out;
-reg [15:0] PC_out;
 
 instructionReg IR(.clk(clk), .LDIR(LDIR), .DR_in(DR_out), .counter_in(counter_out), .data_out(counter_in));
 registor_with_inc PC(.clk(clk), .c_bus_in(c_bus_in), .inc(PC_INC), .WE(C_bus_ctrl_sig[9]), .data_out(PC_out));
@@ -38,10 +37,9 @@ registor_no_inc R1(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[5]), .data
 registor_no_inc R2(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[4]), .data_out(R2_out));
 registor_no_inc R3(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[3]), .data_out(R3_out));
 data_register DR(.clk(clk), .c_bus_in(c_bus_in), .ram_in(ram_out), .WE(C_bus_ctrl_sig[2]), .read(read), .data_out(DR_out));
-registor_no_inc AR(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[1]), .data_out(AR_out));
+registor_no_inc AR(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[1]), .data_out(ram_in));
 
 mux MUX(.select(select), 
-        .AR(AR_out), 
         .DR(DR_out), 
         .R1(R1_out), 
         .R2(R2_out), 
@@ -53,7 +51,5 @@ mux MUX(.select(select),
         .PC(PC_out)
         .data_out(MUX_out));
 
-
-
-    
+  
 endmodule

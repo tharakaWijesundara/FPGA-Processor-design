@@ -33,6 +33,7 @@ module test_bench_registors();
             // Test 1
             LDIR = 1;
             #5;
+	    
             if(IR_data_out == DR_in[5:0])   $display("Passed Test 1");
             else                            $display("Failed Test 1");
             #45;

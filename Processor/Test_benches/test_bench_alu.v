@@ -68,5 +68,14 @@ module test_bench_alu();
 			if(out === 16'd20)   			$monitor("Passed B pass");
 			else					$monitor("Failed B pass");
 			#40;
+
+			//NOP
+			A = 16'd40;
+			B = 16'd20;
+			select = 3'b111;
+			#10
+			if(out === 16'd20)   			$monitor("NOP pass"); // should be equal to previous
+			else					$monitor("NOP pass");
+			#40;
 		end
 endmodule

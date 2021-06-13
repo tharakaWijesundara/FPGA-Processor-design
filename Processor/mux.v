@@ -1,7 +1,6 @@
 module mux (
     output reg [15:0] data_out,
     input [3:0] select,
-    input [15:0] AR, //0111
     input [15:0] DR, //0110
     input [15:0] R1, //0011
     input [15:0] R2, //0100
@@ -15,7 +14,6 @@ module mux (
 
 always @( * ) begin
     case (select)
-        4'b0111: data_out = AR;
         4'b0110: data_out = DR;
         4'b0011: data_out = R1;
         4'b0100: data_out = R2;
