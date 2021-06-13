@@ -1,4 +1,4 @@
-module ins_register(
+module ins_registor(
     input [15:0] DR_in,
     input [5:0] counter_in,
     input clk,

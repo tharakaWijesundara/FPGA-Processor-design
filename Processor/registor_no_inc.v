@@ -1,5 +1,5 @@
 module registor_no_inc(
-    input [15:0] data_in,
+    input [15:0] c_bus_in,
     input clk,
     input WE,  //Write enable
     output reg [15:0] data_out
@@ -7,7 +7,7 @@ module registor_no_inc(
 
 always @(posedge clk) begin
     if (WE==1) begin
-        data_out <= data_in;
+        data_out <= c_bus_in;
     end 
 end
     

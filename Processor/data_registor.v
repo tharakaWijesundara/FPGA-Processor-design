@@ -1,4 +1,4 @@
-module data_register(
+module data_registor(
     input [15:0] c_bus_in,
     input [15:0] ram_in,
     input clk,

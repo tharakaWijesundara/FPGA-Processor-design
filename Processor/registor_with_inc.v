@@ -1,5 +1,5 @@
 module registor_with_inc(
-    input [15:0] data_in,
+    input [15:0] c_bus_in,
     input clk,
     input WE,  //Write enable
     input inc, 
@@ -13,7 +13,7 @@ always @(posedge clk) begin
     
     else begin
         if (WE==1) begin
-            data_out <= data_in;
+            data_out <= c_bus_in;
         end
     end
 end

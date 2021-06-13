@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vcounter
+!s110 1623486940
+!i10b 1
+!s100 Eh[[6gV]VT9FWAVjQFRAH3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IS0HbhT39128fYLeT:]_>]2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches
+w1623486923
+8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/counter.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/counter.v
+!i122 9
+L0 1 260
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1623486940.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/counter.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vdata_registor
+Z6 !s110 1623502241
+!i10b 1
+!s100 :fAzKL;QT0E1=^X0LoXE>3
+R0
+ImFCk`gJz6bek:z]Yi=Xk21
+R1
+R2
+w1623383664
+8C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
+!i122 12
+L0 1 18
+R3
+r1
+!s85 0
+31
+!s108 1623502240.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v|
+!i113 1
+R4
+R5
+vins_registor
+R6
+!i10b 1
+!s100 `[:^L8LzcnGO;?[Rc=jYW2
+R0
+IPSmMT:l1lnQVAMZ@JI3Dh1
+R1
+R2
+w1623383655
+8C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v
+!i122 13
+Z7 L0 1 14
+R3
+r1
+!s85 0
+31
+Z8 !s108 1623502241.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v|
+!i113 1
+R4
+R5
+vregistor_no_inc
+R6
+!i10b 1
+!s100 gYaDBo?R=4aTm??JBajk01
+R0
+I@51_6AGB^1^HiHXzXHBZ<1
+R1
+R2
+w1623488856
+8C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
+!i122 14
+R7
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v|
+!i113 1
+R4
+R5
+vregistor_with_inc
+R6
+!i10b 1
+!s100 7<Plf0;iCd0CL3iONc9n<3
+R0
+I@zblHjTc210l?OAADDnLj2
+R1
+R2
+w1623488864
+8C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
+!i122 15
+L0 1 21
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v|
+!i113 1
+R4
+R5
+vtest_bench_counter
+!s110 1623487133
+!i10b 1
+!s100 F2eTQaE_:NZfgXQOa43_O0
+R0
+IEa<GGkfZ=4MbbVS4?ZWJR3
+R1
+R2
+w1623487127
+8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v
+!i122 10
+L0 3 72
+R3
+r1
+!s85 0
+31
+!s108 1623487132.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v|
+!i113 1
+R4
+R5
+vtest_bench_registors
+!s110 1623553143
+!i10b 1
+!s100 Z5FzSc8=VKihk^N^2d?VO3
+R0
+I=[RjX>Ng5R;@WE7W62N<Z1
+R1
+R2
+w1623553110
+8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v
+!i122 23
+L0 3 97
+R3
+r1
+!s85 0
+31
+!s108 1623553143.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v|
+!i113 1
+R4
+R5
