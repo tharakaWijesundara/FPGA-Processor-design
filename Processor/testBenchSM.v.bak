@@ -12,7 +12,7 @@ module testBenchSM();
     integer i;
     integer write_data;
 
-    stateMachine SM(.clk(clk), .IR(IR), .A_bus(A_bus), .ALU(ALU), .C_bus(C_bus),
+    top_module SM(.clk(clk), .IR(IR), .A_bus(A_bus), .ALU(ALU), .C_bus(C_bus),
                     .LDIR(LDIR), .PC_INC(PC_INC), .AC_INC(AC_INC), .RA_INC(RA_INC),
                     .RB_INC(RB_INC), .RC_INC(RC_INC), .read(read), .write(write));
     
@@ -23,7 +23,7 @@ module testBenchSM();
 
     //         clk = 1'b0;
     //         #25;
-    //     end
+    //     end 
     always #25 clk=~clk;
     initial
         begin
@@ -35,9 +35,8 @@ module testBenchSM();
                     IR = read_data[i];
                     $display(read_data[i]);
                     $fdisplay(write_data, "%b_%b_%b_%b_%b_%b_%b_%b_%b_%b_%b",
-                             A_bus, ALU, C_bus, LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read. write);
+                             A_bus, ALU, C_bus, LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read, write);
                     #50;
                 end
         end
-
 endmodule
