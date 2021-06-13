@@ -4,6 +4,7 @@
 //011  Pass A
 //100  Pass B
 module alu (
+    input clk,
     input [15:0] A,
     input [15:0] B,
     input [2:0] select,
@@ -12,6 +13,7 @@ module alu (
 );
 
 always @(posedge clk) begin
+    $display(select);
     case (select)
         3'b000 : begin
             out <= B + A;
@@ -32,6 +34,7 @@ always @(posedge clk) begin
         3'b100 : begin
             out <= B;
         end
+    endcase
 end
     
 endmodule

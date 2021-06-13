@@ -6,14 +6,15 @@ module testBenchSM();
     wire  [3:0] A_bus;
     wire [2:0] ALU;
     wire [9:0] C_bus;
-    wire LDIR,PC_INC,AC_INC,RA_INC,RB_INC,RC_INC,read,write;
+    wire [15:0] out;
+    wire LDIR,PC_INC,AC_INC,RA_INC,RB_INC,RC_INC,read,write,Z_Flag;
 
     reg[5:0] read_data [0:55];
     integer i;
     integer write_data;
     integer fin_pointer;
 
-    top_module TM(.clk(clk), .IR(IR), .A_bus(A_bus), .ALU(ALU), .C_bus(C_bus),
+    top_module TM(.clk(clk), .IR(IR), .A_bus(A_bus), .Z_Flag(Z_Flag), .C_bus(C_bus), .out(out),
                     .LDIR(LDIR), .PC_INC(PC_INC), .AC_INC(AC_INC), .RA_INC(RA_INC),
                     .RB_INC(RB_INC), .RC_INC(RC_INC), .read(read), .write(write));
     
@@ -31,13 +32,12 @@ module testBenchSM();
 	        clk = 1;
             write_data = $fopen("output_signals.txt");
             $readmemb("Instructions.txt", read_data);
-
             for(i=0 ; i < 56 ; i=i+1)
                 begin
                     IR = read_data[i];
                     $display(read_data[i]);
                     $fdisplay(write_data, "%b_%b_%b_%b_%b_%b_%b_%b_%b_%b_%b",
-                             A_bus, ALU, C_bus, LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read, write);
+                             A_bus, Z_Flag,  C_bus, out, LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read, write);
                     #50;
                 end
         end
