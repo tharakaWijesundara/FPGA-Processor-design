@@ -9,7 +9,7 @@ module ins_registor(
 
 always @(posedge clk) begin
     if(LDIR==1)    data_out <= DR_in[5:0];
-    else        data_out <= counter_in;
+    else        data_out <= 6'd5;
 end
 
 endmodule

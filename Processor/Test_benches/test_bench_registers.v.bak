@@ -23,12 +23,13 @@ module test_bench_registors();
     always #25 clk=~clk;
 
     initial begin
-
-	    clk = 1;
+	clk = 1;
 
         if(check_reg == 0) begin
             DR_in = 16'd55;
             counter_in = 6'd25;
+	    //Test inital value
+	    $display("Initial value - %d", IR_data_out);
 
             // Test 1
             LDIR = 1;
