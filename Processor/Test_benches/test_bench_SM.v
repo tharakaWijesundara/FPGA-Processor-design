@@ -14,7 +14,7 @@ module test_bench_SM();
     integer write_data;
     integer fin_pointer;
 
-    top_module TM(.clk(clk), .IR(IR), .A_bus(A_bus), .Z_Flag(Z_Flag), .C_bus(C_bus), .out(out),
+    state_machine SM(.clk(clk), .IR(IR), .A_bus(A_bus), .ALU(ALU), .C_bus(C_bus),
                     .LDIR(LDIR), .PC_INC(PC_INC), .AC_INC(AC_INC), .RA_INC(RA_INC),
                     .RB_INC(RB_INC), .RC_INC(RC_INC), .read(read), .write(write));
     
@@ -29,7 +29,7 @@ module test_bench_SM();
                     IR = read_data[i];
                     $display(read_data[i]);
                     $fdisplay(write_data, "%b_%b_%b_%b_%b_%b_%b_%b_%b_%b_%b",
-                             A_bus, Z_Flag,  C_bus, out, LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read, write);
+                             A_bus, ALU,  C_bus,  LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read, write);
                     #50;
                 end
         end
