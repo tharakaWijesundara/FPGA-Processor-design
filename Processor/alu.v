@@ -38,6 +38,7 @@ always @(posedge clk) begin
             z_flag <= 0;
         end
     endcase
+    
 end
     
 endmodule
