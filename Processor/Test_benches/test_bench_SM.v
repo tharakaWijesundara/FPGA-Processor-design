@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module testBenchSM();
+module test_bench_SM();
     reg clk;
     reg [5:0] IR;
     wire  [3:0] A_bus;
@@ -18,19 +18,11 @@ module testBenchSM();
                     .LDIR(LDIR), .PC_INC(PC_INC), .AC_INC(AC_INC), .RA_INC(RA_INC),
                     .RB_INC(RB_INC), .RC_INC(RC_INC), .read(read), .write(write));
     
-    // always 
-    //     begin
-    //         clk = 1'b1; 
-    //         #25;
-
-    //         clk = 1'b0;
-    //         #25;
-    //     end
     always #25 clk=~clk;
     initial
         begin
 	        clk = 1;
-            write_data = $fopen("output_signals.txt");
+            write_data = $fopen("output_signals.txt", "w");
             $readmemb("Instructions.txt", read_data);
             for(i=0 ; i < 56 ; i=i+1)
                 begin

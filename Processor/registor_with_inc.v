@@ -1,25 +1,20 @@
 module registor_with_inc(
-    input [15:0] data_in,
+    input [15:0] c_bus_in,
     input clk,
-    input RW,
-    input inc,
+    input WE,  //Write enable
+    input inc, 
     output reg [15:0] data_out
 );
 
-reg [15:0] stored_data;
-//Read - 1 ,write - 0
-
 always @(posedge clk) begin
     if (inc) begin
-        stored_data <= data_in + 1;
+        data_out <= data_out + 1;
     end
     
     else begin
-        if (RW==1) begin
-            data_out <= stored_data;
-        end else begin
-            stored_data <= data_in;
-        end 
+        if (WE==1) begin
+            data_out <= c_bus_in;
+        end
     end
 end
     

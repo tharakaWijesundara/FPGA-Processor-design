@@ -17,22 +17,25 @@ always @(posedge clk) begin
     case (select)
         3'b000 : begin
             out <= B + A;
-            if(B + A == 0)  z_flag <= 1;
-            else            z_flag <= 0;
+            if(B + A === 0)  z_flag <= 1;
+            else             z_flag <= 0;
         end
         3'b001 : begin
             out <= B - A;
-            if(B - A == 0)  z_flag <= 1;
-            else            z_flag <= 0;
+            if(B - A === 0)  z_flag <= 1;
+            else             z_flag <= 0;
         end
         3'b010 : begin
             out <= B * A;
+            z_flag <= 0;
         end
         3'b011 : begin
             out <= A;
+            z_flag <= 0;
         end
         3'b100 : begin
             out <= B;
+            z_flag <= 0;
         end
     endcase
 end

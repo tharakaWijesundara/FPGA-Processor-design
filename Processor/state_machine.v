@@ -1,5 +1,5 @@
 
-module stateMachine (
+module state_machine (
     input clk,
     input [5:0] IR,
     output reg [3:0] A_bus,
