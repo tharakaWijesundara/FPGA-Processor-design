@@ -9,6 +9,7 @@ module state_machine (
 
 );
 
+
 always @(posedge clk) begin
     case (IR)
     //FETCH1

@@ -9,7 +9,7 @@ module mux (
     input [15:0] RB, //0001
     input [15:0] RC, //0010
     input [15:0] AC, //1001
-    input [15:0] PC  //1010
+    input [15:0] PC, //1010
 );
 
 always @( * ) begin

@@ -26,8 +26,9 @@ module test_bench_SM();
             $readmemb("Instructions.txt", read_data);
             for(i=0 ; i < 56 ; i=i+1)
                 begin
-                    IR = read_data[i];
-                    $display(read_data[i]);
+                    //IR = read_data[i];
+		    IR = 6'b111001;
+                    $display(IR);//read_data[i]
                     $fdisplay(write_data, "%b_%b_%b_%b_%b_%b_%b_%b_%b_%b_%b",
                              A_bus, ALU,  C_bus,  LDIR, PC_INC, AC_INC, RA_INC, RB_INC, RC_INC, read, write);
                     #50;

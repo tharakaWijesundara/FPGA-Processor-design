@@ -255,7 +255,8 @@ always @(posedge clk) begin
         default: begin
             counter <= 2'd0;
             IROut <= 6'd1;
-        end;
+            mIR <= 6'd56;
+        end
     endcase
 
 end
