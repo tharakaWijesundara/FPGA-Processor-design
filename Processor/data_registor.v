@@ -12,7 +12,6 @@ always @(posedge clk) begin
         if(read==1)     data_out <= ram_in;
         else            data_out <= c_bus_in;
     end
-
 end
 
 endmodule
