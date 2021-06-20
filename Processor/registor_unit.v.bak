@@ -30,7 +30,7 @@ wire [15:0] RC_out;
 assign ram_in = DR_out;
 
 
-ins_registor IR(.clk(clk), .LDIR(LDIR), .DR_in(DR_out), .counter_out(counter_out), .data_out(counter_in));
+instructionReg IR(.clk(clk), .LDIR(LDIR), .DR_in(DR_out), .counter_in(counter_out), .data_out(counter_in));
 registor_with_inc PC(.clk(clk), .c_bus_in(c_bus_in), .inc(PC_INC), .WE(C_bus_ctrl_sig[9]), .data_out(PC_out));
 registor_with_inc AC(.clk(clk), .c_bus_in(c_bus_in), .inc(AC_INC), .WE(C_bus_ctrl_sig[0]), .data_out(AC_out));
 registor_with_inc RA(.clk(clk), .c_bus_in(c_bus_in), .inc(RA_INC), .WE(C_bus_ctrl_sig[8]), .data_out(RA_out));
@@ -40,10 +40,9 @@ registor_no_inc R1(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[5]), .data
 registor_no_inc R2(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[4]), .data_out(R2_out));
 registor_no_inc R3(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[3]), .data_out(R3_out));
 data_registor DR(.clk(clk), .c_bus_in(c_bus_in), .ram_in(ram_out), .WE(C_bus_ctrl_sig[2]), .read(read), .data_out(DR_out));
-address_registor AR(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[1]), .data_out(ram_addr));
+registor_no_inc AR(.clk(clk), .c_bus_in(c_bus_in), .WE(C_bus_ctrl_sig[1]), .data_out(ram_addr));
 
-mux MUX(.clk(clk),
-        .select(select),
+mux MUX(.select(select),
         .DR(DR_out),
         .R1(R1_out),
         .R2(R2_out),

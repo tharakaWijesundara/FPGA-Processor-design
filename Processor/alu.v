@@ -9,36 +9,39 @@ module alu (
     input [15:0] B,
     input [2:0] select,
     output reg z_flag,
-    output reg [15:0] out
+    output reg [15:0] out,
+    output reg finish
 );
 
-always @(posedge clk) begin
-    $display(select);
+always @(A or select) begin
+    // $display(select);
     case (select)
         3'b000 : begin
-            out <= B + A;
-            if(B + A === 0)  z_flag <= 1;
-            else             z_flag <= 0;
+            out <= A + B;
+            if(B + A == 0)  z_flag <= 1;
+            else            z_flag <= 0;
         end
         3'b001 : begin
-            out <= B - A;
-            if(B - A === 0)  z_flag <= 1;
-            else             z_flag <= 0;
+            out <= A - B;
+            if(A - B == 0)  z_flag <= 1; 
+            else            z_flag <= 0;
         end
         3'b010 : begin
             out <= B * A;
-            z_flag <= 0;
         end
         3'b011 : begin
             out <= A;
-            z_flag <= 0;
         end
         3'b100 : begin
             out <= B;
-            z_flag <= 0;
         end
-    endcase
-    
+        3'b101 : begin
+            out <= 16'd0;
+        end
+        3'b110 : begin
+            finish <= 1;
+        end
+    endcase  
 end
     
 endmodule

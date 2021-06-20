@@ -5,12 +5,19 @@ module state_machine (
     output reg [3:0] A_bus,
     output reg [2:0] ALU,
     output reg [9:0] C_bus,
-    output reg LDIR,PC_INC,AC_INC,RA_INC,RB_INC,RC_INC,read,write
+    output reg LDIR,
+    output reg PC_INC,
+    output reg AC_INC,
+    output reg RA_INC,
+    output reg RB_INC,
+    output reg RC_INC,
+    output reg read,
+    output reg write
 
 );
 
 
-always @(posedge clk) begin
+always @(IR) begin
     case (IR)
     //FETCH1
         6'b000001: begin
@@ -786,6 +793,20 @@ always @(posedge clk) begin
         6'b111000: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
+            C_bus <= 10'b0000000000;
+            LDIR <= 0;
+            PC_INC <= 0;
+            AC_INC <= 0;
+            RA_INC <= 0;
+            RB_INC <= 0;
+            RC_INC <= 0;
+            read <= 0;
+            write <= 0;
+        end
+    //ENDOP
+        6'b111001: begin
+            A_bus <= 4'b1111;
+            ALU <= 3'b110;
             C_bus <= 10'b0000000000;
             LDIR <= 0;
             PC_INC <= 0;

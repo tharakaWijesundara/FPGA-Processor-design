@@ -6,6 +6,10 @@ module registor_with_inc(
     output reg [15:0] data_out
 );
 
+initial begin
+    data_out = 16'd0;
+end
+
 always @(posedge clk) begin
     if (inc) begin
         data_out <= data_out + 1;

@@ -1,0 +1,112 @@
+module ram(
+    input clk,
+    input read, 
+    input write,
+    input [15:0] address,
+    inout [15:0] data
+);
+
+reg [15:0] memory [254:0];
+
+// Instruction RAM
+initial begin
+    memory[0] = 6'b000100;
+    memory[1] = 8'h34;
+
+    memory[2] = 6'b100100;
+
+    memory[3] = 6'b000100;
+    memory[4] = 8'h35;
+
+    memory[5] = 6'b100101;
+
+    memory[6] = 6'b001100;
+    memory[7] = 8'h36;
+
+    memory[8] = 6'b001110;
+    memory[9] = 8'h39;
+
+    memory[10] = 6'b010000;
+    memory[11] = 8'h3C;
+    
+    memory[12] = 6'b010010;
+
+    memory[13] = 6'b100110;
+
+    memory[14] = 6'b010101;
+
+    memory[15] = 6'b110011;
+
+    memory[16] = 6'b100110;
+
+    memory[17] = 6'b011010;
+
+    memory[18] = 6'b101001;
+
+    memory[19] = 6'b100001;
+
+    memory[20] = 6'b101011;
+
+    memory[21] = 6'b101100;
+
+    memory[22] = 6'b000100;
+    memory[23] = 8'h33;
+
+    memory[24] = 6'b110000;
+
+    memory[25] = 6'b001000;
+    memory[26] = 8'h33;
+
+    memory[27] = 6'b101110;
+
+    memory[28] = 6'b110100;// JPNZ Loop L1
+    memory[29] = 8'h0C;
+
+    memory[30] = 6'b101010;
+
+    memory[31] = 6'b101011;
+
+    memory[32] = 6'b110111;
+
+    memory[33] = 6'b001000;
+    memory[34] = 8'h33;
+
+    memory[35] = 6'b000100;
+    memory[36] = 8'h0032;
+
+    memory[37] = 6'b110000;
+
+    memory[38] = 6'b001000;
+    memory[39] = 8'h32;
+
+    memory[40] = 6'b101101;
+
+    memory[41] = 6'b010000;
+    memory[42] = 8'h3C;
+
+    memory[43] = 6'b110100;// JPNZ Loop L1
+    memory[44] = 8'h0C; 
+
+    memory[45] = 6'b111000;
+end
+
+
+// Data RAM
+
+// initial begin
+//     memory[50] = 16'b0;
+//     memory[51] = 16'b0;
+//     memory[52] = 16'b3;
+//     memory[53] = 16'b3;
+//     memory[54] = 16'b2;
+//     memory[55] = 16'b1;
+//     memory[56] = 16'b20;
+//     memory[57] = 16'b34;
+//     memory[58] = 16'b54;
+//     memory[59] = 16'b3;
+//     memory[60] = 16'b0;
+//     memory[61] = 16'b0;
+//     memory[62] = 16'b0;
+// end
+
+endmodule
