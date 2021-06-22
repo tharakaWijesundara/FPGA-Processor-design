@@ -4,7 +4,7 @@ module state_machine (
     input [5:0] IR,
     output reg [3:0] A_bus,
     output reg [2:0] ALU,
-    output reg [9:0] C_bus,
+    output reg [10:0] C_bus,
     output reg LDIR,
     output reg PC_INC,
     output reg AC_INC,
@@ -23,7 +23,7 @@ always @(IR) begin
         6'b000001: begin
             A_bus <= 4'b1010;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -37,7 +37,7 @@ always @(IR) begin
         6'b000010: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -51,7 +51,7 @@ always @(IR) begin
         6'b000011: begin
             A_bus <= 4'b1010;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 1;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -65,7 +65,7 @@ always @(IR) begin
         6'b000100: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -79,7 +79,7 @@ always @(IR) begin
         6'b000101: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -93,7 +93,7 @@ always @(IR) begin
         6'b000110: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -107,7 +107,7 @@ always @(IR) begin
         6'b000111: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -121,7 +121,7 @@ always @(IR) begin
         6'b001000: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -135,7 +135,7 @@ always @(IR) begin
         6'b001001: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -149,7 +149,7 @@ always @(IR) begin
         6'b001010: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000100;
+            C_bus <= 11'b00000000100;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -163,7 +163,7 @@ always @(IR) begin
         6'b001011: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -177,7 +177,7 @@ always @(IR) begin
         6'b001100: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -191,7 +191,7 @@ always @(IR) begin
         6'b001101: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0100000000;
+            C_bus <= 11'b00100000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -205,7 +205,7 @@ always @(IR) begin
         6'b001110: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -219,7 +219,7 @@ always @(IR) begin
         6'b001111: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0010000000;
+            C_bus <= 11'b00010000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -233,7 +233,7 @@ always @(IR) begin
         6'b010000: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -247,7 +247,7 @@ always @(IR) begin
         6'b010001: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0001000000;
+            C_bus <= 11'b00001000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -261,7 +261,7 @@ always @(IR) begin
         6'b010010: begin
             A_bus <= 4'b0000;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -275,7 +275,7 @@ always @(IR) begin
         6'b010011: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -289,7 +289,7 @@ always @(IR) begin
         6'b010100: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -303,7 +303,7 @@ always @(IR) begin
         6'b010101: begin
             A_bus <= 4'b0001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -317,7 +317,7 @@ always @(IR) begin
         6'b010110: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -331,7 +331,7 @@ always @(IR) begin
         6'b010111: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -345,7 +345,7 @@ always @(IR) begin
         6'b011000: begin
             A_bus <= 4'b0010;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -359,7 +359,7 @@ always @(IR) begin
         6'b011001: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -373,7 +373,7 @@ always @(IR) begin
         6'b011010: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -387,7 +387,7 @@ always @(IR) begin
         6'b011011: begin
             A_bus <= 4'b0000;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -401,7 +401,7 @@ always @(IR) begin
         6'b011100: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000100;
+            C_bus <= 11'b00000000100;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -415,7 +415,7 @@ always @(IR) begin
         6'b011101: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -429,7 +429,7 @@ always @(IR) begin
         6'b011110: begin
             A_bus <= 4'b0001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -443,7 +443,7 @@ always @(IR) begin
         6'b011111: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000100;
+            C_bus <= 11'b00000000100;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -457,7 +457,7 @@ always @(IR) begin
         6'b100000: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -471,7 +471,7 @@ always @(IR) begin
         6'b100001: begin
             A_bus <= 4'b0010;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000010;
+            C_bus <= 11'b00000000010;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -485,7 +485,7 @@ always @(IR) begin
         6'b100010: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000000100;
+            C_bus <= 11'b00000000100;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -499,7 +499,7 @@ always @(IR) begin
         6'b100011: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -513,7 +513,7 @@ always @(IR) begin
         6'b100100: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000100000;
+            C_bus <= 11'b00000100000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -527,7 +527,7 @@ always @(IR) begin
         6'b100101: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000010000;
+            C_bus <= 11'b00000010000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -541,7 +541,7 @@ always @(IR) begin
         6'b100110: begin
             A_bus <= 4'b1001;
             ALU <= 3'b011;
-            C_bus <= 10'b0000001000;
+            C_bus <= 11'b00000001000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -555,7 +555,7 @@ always @(IR) begin
         6'b100111: begin
             A_bus <= 4'b0011;
             ALU <= 3'b000;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -569,7 +569,7 @@ always @(IR) begin
         6'b101000: begin
             A_bus <= 4'b0100;
             ALU <= 3'b000;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -583,7 +583,7 @@ always @(IR) begin
         6'b101001: begin
             A_bus <= 4'b0101;
             ALU <= 3'b000;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -597,7 +597,7 @@ always @(IR) begin
         6'b101010: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -611,7 +611,7 @@ always @(IR) begin
         6'b101011: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -625,7 +625,7 @@ always @(IR) begin
         6'b101100: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -639,7 +639,7 @@ always @(IR) begin
         6'b101101: begin
             A_bus <= 4'b0011;
             ALU <= 3'b001;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -653,7 +653,7 @@ always @(IR) begin
         6'b101110: begin
             A_bus <= 4'b0100;
             ALU <= 3'b001;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -667,7 +667,7 @@ always @(IR) begin
         6'b101111: begin
             A_bus <= 4'b0101;
             ALU <= 3'b001;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -681,7 +681,7 @@ always @(IR) begin
         6'b110000: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 1;
@@ -695,7 +695,7 @@ always @(IR) begin
         6'b110001: begin
             A_bus <= 4'b0011;
             ALU <= 3'b010;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -709,7 +709,7 @@ always @(IR) begin
         6'b110010: begin
             A_bus <= 4'b0100;
             ALU <= 3'b010;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -723,7 +723,7 @@ always @(IR) begin
         6'b110011: begin
             A_bus <= 4'b0101;
             ALU <= 3'b010;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -737,7 +737,7 @@ always @(IR) begin
         6'b110100: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -751,7 +751,7 @@ always @(IR) begin
         6'b110101: begin
             A_bus <= 4'b0110;
             ALU <= 3'b011;
-            C_bus <= 10'b1000000000;
+            C_bus <= 11'b01000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -765,7 +765,7 @@ always @(IR) begin
         6'b110110: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 1;
             AC_INC <= 0;
@@ -779,7 +779,7 @@ always @(IR) begin
         6'b110111: begin
             A_bus <= 4'b1111;
             ALU <= 3'b101;
-            C_bus <= 10'b0000000001;
+            C_bus <= 11'b00000000001;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -793,7 +793,35 @@ always @(IR) begin
         6'b111000: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
+            LDIR <= 0;
+            PC_INC <= 0;
+            AC_INC <= 0;
+            RA_INC <= 0;
+            RB_INC <= 0;
+            RC_INC <= 0;
+            read <= 0;
+            write <= 0;
+        end
+    //LDRDRC
+        6'b111010: begin
+            A_bus <= 4'b0010;
+            ALU <= 3'b011;
+            C_bus <= 11'b10000000000;
+            LDIR <= 0;
+            PC_INC <= 0;
+            AC_INC <= 0;
+            RA_INC <= 0;
+            RB_INC <= 0;
+            RC_INC <= 0;
+            read <= 0;
+            write <= 0;
+        end
+    //LDRCRD
+        6'b111011: begin
+            A_bus <= 4'b0111;
+            ALU <= 3'b011;
+            C_bus <= 11'b00001000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -807,7 +835,7 @@ always @(IR) begin
         6'b111001: begin
             A_bus <= 4'b1111;
             ALU <= 3'b110;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;
@@ -821,7 +849,7 @@ always @(IR) begin
         default: begin
             A_bus <= 4'b1111;
             ALU <= 3'b111;
-            C_bus <= 10'b0000000000;
+            C_bus <= 11'b00000000000;
             LDIR <= 0;
             PC_INC <= 0;
             AC_INC <= 0;

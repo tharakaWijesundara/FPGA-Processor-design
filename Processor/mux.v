@@ -9,6 +9,7 @@ module mux (
     input [15:0] RA, //0000
     input [15:0] RB, //0001
     input [15:0] RC, //0010
+    input [15:0] RD, //0111
     input [15:0] AC, //1001
     input [15:0] PC  //1010
 );
@@ -24,6 +25,7 @@ always @(select) begin
         4'b0000: data_out <= RA;
         4'b0001: data_out <= RB;
         4'b0010: data_out <= RC;
+        4'b0111: data_out <= RD;
         4'b1001: data_out <= AC;
         4'b1010: data_out <= PC;
     endcase
