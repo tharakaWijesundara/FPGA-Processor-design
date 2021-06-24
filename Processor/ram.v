@@ -98,8 +98,10 @@ end
 initial begin
     memory[50] = 16'd0;
     memory[51] = 16'd0;
+    
     memory[52] = 16'd2;
     memory[53] = 16'd2;
+
     memory[54] = 16'd2;
     memory[55] = 16'd1;
     memory[56] = 16'd5;
@@ -110,6 +112,46 @@ initial begin
     memory[61] = 16'd67;
     memory[62] = 16'd0;
     memory[63] = 16'd0;
+    memory[64] = 16'd0;
+    memory[65] = 16'd0;
+    memory[66] = 16'd2;
+    memory[67] = 16'd2;
+    memory[68] = 16'd2;
+    memory[69] = 16'd1;
+
+    memory[70] = 16'd5;
+    memory[71] = 16'd4;
+    memory[72] = 16'd34;
+    memory[73] = 16'd54;
+    memory[74] = 16'd55;
+    memory[75] = 16'd67;
+    memory[76] = 16'd0;
+    memory[77] = 16'd0;
+    memory[78] = 16'd0;
+    memory[79] = 16'd0;
+    memory[80] = 16'd2;
+    memory[81] = 16'd2;
+    memory[82] = 16'd2;
+    memory[83] = 16'd1;
+    memory[84] = 16'd5;
+    memory[85] = 16'd4;
+
+    memory[86] = 16'd34;
+    memory[87] = 16'd54;
+    memory[88] = 16'd55;
+    memory[89] = 16'd67;
+    memory[90] = 16'd0;
+    memory[91] = 16'd0;
+    memory[92] = 16'd2;
+    memory[93] = 16'd2;
+    memory[94] = 16'd2;
+    memory[95] = 16'd1;
+    memory[96] = 16'd5;
+    memory[97] = 16'd4;
+    memory[98] = 16'd34;
+    memory[99] = 16'd54;
+    memory[100] = 16'd55;
+    memory[101] = 16'd67;
 end
 
 always @(posedge clk) begin
