@@ -1,9 +1,12 @@
-module registor_with_inc(
-    input [15:0] c_bus_in,
+module registor_with_inc #(
+    parameter DATA_LEN = 16
+)
+(
+    input [DATA_LEN - 1:0] c_bus_in,
     input clk,
     input WE,  //Write enable
     input inc, 
-    output reg [15:0] data_out
+    output reg [DATA_LEN - 1:0] data_out
 );
 
 initial begin

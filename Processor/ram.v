@@ -1,13 +1,17 @@
-module ram(
+module ram #(
+    parameter DATA_LEN = 16,
+    parameter ADDRESS_LEN = 8
+)
+(
     input clk,
     input read, 
     input write,
-    input [47:0] address,
-    input [47:0] data_in,
-    output reg [47:0] data_out
+    input [ADDRESS_LEN * 3 - 1:0] address,
+    input [DATA_LEN * 3 - 1:0] data_in,
+    output reg [DATA_LEN * 3 - 1:0] data_out
 );
 
-reg [15:0] memory [254:0];
+reg [DATA_LEN - 1:0] memory [2 ** ADDRESS_LEN - 1:0];
 
 
 // Instruction RAM
@@ -151,13 +155,17 @@ end
 
 always @(posedge clk) begin
     if(read==1) begin
-        data_out <= {memory[address[39:32]], memory[address[23:16]], memory[address[7:0]]};
+        data_out <= {
+            memory[address[ADDRESS_LEN * 3 - 1:ADDRESS_LEN * 2]],
+            memory[address[ADDRESS_LEN * 2 - 1:ADDRESS_LEN]], 
+            memory[address[ADDRESS_LEN - 1:0]]
+            };
     end
 
     else if(write==1) begin
-        memory[address[7:0]] <= data_in[15:0];
-        memory[address[23:16]] <= data_in[31:16];
-        memory[address[39:32]] <= data_in[47:32];
+        memory[address[ADDRESS_LEN - 1:0]] <= data_in[DATA_LEN - 1:0];
+        memory[address[ADDRESS_LEN * 2 - 1:ADDRESS_LEN]] <= data_in[DATA_LEN * 2 - 1:DATA_LEN];
+        memory[address[ADDRESS_LEN * 3 - 1:ADDRESS_LEN * 2]] <= data_in[DATA_LEN * 3 - 1:DATA_LEN * 2];
     end
 end
 

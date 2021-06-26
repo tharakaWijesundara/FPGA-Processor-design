@@ -1,17 +1,21 @@
-module mux (
+module mux #(
+    parameter DATA_LEN = 16,
+    parameter MUX_SEL_SIG = 4
+)
+(
     input clk,
-    output reg [15:0] data_out,
-    input [3:0] select,
-    input [15:0] DR, //0110
-    input [15:0] R1, //0011
-    input [15:0] R2, //0100
-    input [15:0] R3, //0101
-    input [15:0] RA, //0000
-    input [15:0] RB, //0001
-    input [15:0] RC, //0010
-    input [15:0] RD, //0111
-    input [15:0] AC, //1001
-    input [15:0] PC  //1010
+    output reg [DATA_LEN - 1:0] data_out,
+    input [MUX_SEL_SIG - 1:0] select,
+    input [DATA_LEN - 1:0] DR, //0110
+    input [DATA_LEN - 1:0] R1, //0011
+    input [DATA_LEN - 1:0] R2, //0100
+    input [DATA_LEN - 1:0] R3, //0101
+    input [DATA_LEN - 1:0] RA, //0000
+    input [DATA_LEN - 1:0] RB, //0001
+    input [DATA_LEN - 1:0] RC, //0010
+    input [DATA_LEN - 1:0] RD, //0111
+    input [DATA_LEN - 1:0] AC, //1001
+    input [DATA_LEN - 1:0] PC  //1010
 );
 
 always @(select) begin

@@ -40,19 +40,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ins_registor
 
-} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/mux.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/mux.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux
-
-Top level modules:
-	mux
-
 } {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/alu.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/alu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module alu
 
 Top level modules:
 	alu
+
+} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/mux.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux
+
+Top level modules:
+	mux
 
 } {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

@@ -1,10 +1,13 @@
-module data_registor(
-    input [15:0] c_bus_in,
-    input [15:0] ram_in,
+module data_registor #(
+    parameter DATA_LEN = 16
+)
+(
+    input [DATA_LEN - 1:0] c_bus_in,
+    input [DATA_LEN - 1:0] ram_in,
     input clk,
     input WE,
     input read,
-    output reg [15:0] data_out
+    output reg [DATA_LEN - 1:0] data_out
 );
 
 always @(c_bus_in or ram_in) begin

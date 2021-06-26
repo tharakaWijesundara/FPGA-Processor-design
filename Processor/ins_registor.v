@@ -1,14 +1,19 @@
-module ins_registor(
-    input [15:0] DR_in,
-    input [5:0] counter_out,
+module ins_registor
+#(
+    parameter INSTRUCTION_LEN = 6,
+    parameter DATA_LEN = 16
+)
+(
+    input [DATA_LEN - 1:0] DR_in,
+    input [INSTRUCTION_LEN - 1:0] counter_out,
     input clk,
     input LDIR,
-    output reg [5:0] data_out
+    output reg [INSTRUCTION_LEN - 1:0] data_out
 );
 
 always @(LDIR) begin
     if(LDIR==1) begin
-        data_out <= DR_in[5:0];
+        data_out <= DR_in[INSTRUCTION_LEN - 1:0];
         $display("%d", data_out);
     end 
 end

@@ -1,10 +1,16 @@
-
-module state_machine (
+module state_machine 
+#(
+    parameter INSTRUCTION_LEN = 6,
+    parameter ALU_SIG_LEN = 3,
+    parameter C_BUS_SIG_LEN = 11,
+    parameter MUX_SEL_SIG = 4
+)
+(
     input clk,
-    input [5:0] IR,
-    output reg [3:0] A_bus,
-    output reg [2:0] ALU,
-    output reg [10:0] C_bus,
+    input [INSTRUCTION_LEN - 1:0] IR,
+    output reg [MUX_SEL_SIG - 1:0] A_bus,
+    output reg [ALU_SIG_LEN - 1:0] ALU,
+    output reg [C_BUS_SIG_LEN - 1:0] C_bus,
     output reg LDIR,
     output reg PC_INC,
     output reg AC_INC,

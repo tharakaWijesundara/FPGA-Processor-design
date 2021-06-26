@@ -1,10 +1,15 @@
-module counter (
+module counter 
+#(
+   parameter INSTRUCTION_LEN = 6,
+   parameter SM_SIG_LEN = 6
+)
+(
     input clk,
-    input [5:0] IROut,
+    input [INSTRUCTION_LEN - 1:0] IROut,
     input z_in,
     input start,
-    output reg[5:0] smInput,
-    output reg[5:0] IRIn
+    output reg[SM_SIG_LEN - 1:0] smInput,
+    output reg[INSTRUCTION_LEN - 1:0] IRIn
 );
 reg [1:0] counter = 0;
 

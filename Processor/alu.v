@@ -3,13 +3,18 @@
 //010  Mullt
 //011  Pass A
 //100  Pass B
-module alu (
+module alu
+#(
+    parameter ALU_SIG_LEN = 3,
+    parameter DATA_LEN = 16
+)
+(
     input clk,
-    input [15:0] A,
-    input [15:0] B,
-    input [2:0] select,
+    input [DATA_LEN - 1:0] A,
+    input [DATA_LEN - 1:0] B,
+    input [ALU_SIG_LEN - 1:0] select,
     output reg z_flag,
-    output reg [15:0] out,
+    output reg [DATA_LEN - 1:0] out,
     output reg finish
 );
 
