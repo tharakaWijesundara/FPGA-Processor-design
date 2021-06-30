@@ -1,18 +1,4 @@
-'''| a b c d |   | a b c |   | a b |
-   | e f g h |   | d e f |   | c d |
-   | i j k l |   | g h i |
-   | m n o p |                     3*2 2*1 '''
-
-
-fh = open("ram1.v", "w")
-mat_1 = [1, 3, 1, 5, 3, 4]
-mat_2 = [1, 3]
-M = 1
-N = 2
-
-
-try:
-    fh.write('''module ram(
+module ram(
         input clk,
         input read,
         input write,
@@ -21,10 +7,8 @@ try:
         output reg [15:0] data_out
         );
 
-        reg [15:0] memory [254:0];\n'''
-             )
-
-    fh.write(''' initial begin
+        reg [15:0] memory [254:0];
+ initial begin
         memory[0] = 6'd4;
         memory[1] = 8'h34;
 
@@ -37,17 +21,15 @@ try:
 
 
         memory[6] = 6'd12;
-        memory[7] = 8'h36;\n\n''')
-    temp = ""
-    temp += "\t\tmemory[8] = 6'd14;\n"
-    temp += "\t\tmemory[9] = 8'h"+(hex(54+len(mat_1))[2:]).upper()+";\n\n"
+        memory[7] = 8'h36;
 
-    temp += "\t\tmemory[10] = 6'd16;\n"
-    temp += "\t\tmemory[11] = 8'h" + \
-        (hex(54+len(mat_1)+len(mat_2))[2:]).upper()+";\n\n"
-    fh.write(temp)
+		memory[8] = 6'd14;
+		memory[9] = 8'h3C;
 
-    fh.write('''        
+		memory[10] = 6'd16;
+		memory[11] = 8'h3E;
+
+        
         memory[12] = 6'd18;
 
         memory[13] = 6'd38;
@@ -107,42 +89,31 @@ try:
         memory[44] = 6'd56;
 
         memory[45] = 6'd57;// END
-    end \n ''')
-    fh.write('''
+    end 
+ 
         initial begin
         memory[50] = 16'd0;
         memory[51] = 16'd0;
 
 
         memory[52] = 16'd2;
-        memory[53] = 16'd2;\n
-''')
-    temp = ""
-    counter = 54
-    for i in range(len(mat_1)):
-        counter = 54+i
-        temp += "\t\tmemory["+str(counter)+"] =16'd"+str(mat_1[i])+";\n"
-    temp += "\n"
-    fh.write(temp)
-    temp = ""
-    counter += 1
-    for i in range(len(mat_2)):
-        counter = counter+i
-        temp += "\t\tmemory["+str(counter)+"] =16'd"+str(mat_2[i])+";\n"
-    temp += "\n"
-    fh.write(temp)
-    temp = ""
-    counter += 1
-    for i in range(int((len(mat_1)/N)*M)):
-        counter = counter+i
-        temp += "\t\tmemory["+str(counter)+"] =16'd0;\n"
-    temp += "end\n"
-    fh.write(temp)
-    temp = ""
-    counter += 1
+        memory[53] = 16'd2;
 
-    fh.write(
-        '''always @(posedge clk) begin
+		memory[54] =16'd1;
+		memory[55] =16'd3;
+		memory[56] =16'd1;
+		memory[57] =16'd5;
+		memory[58] =16'd3;
+		memory[59] =16'd4;
+
+		memory[60] =16'd1;
+		memory[61] =16'd3;
+
+		memory[62] =16'd0;
+		memory[63] =16'd0;
+		memory[65] =16'd0;
+end
+always @(posedge clk) begin
                 if(read==1) begin
                     data_out <= memory[address[7:0]];
                 end
@@ -152,7 +123,4 @@ try:
                 end
             end
 
-    endmodule''')
-
-finally:
-    fh.close()
+    endmodule
