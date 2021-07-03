@@ -6,11 +6,17 @@ module registor_with_inc #(
     input clk,
     input WE,  //Write enable
     input inc, 
+    input reset,
     output reg [DATA_LEN - 1:0] data_out
 );
 
 initial begin
     data_out = 16'd0;
+end
+
+always @(reset) begin
+    if(reset == 1)  data_out = 16'd0;
+    
 end
 
 always @(posedge clk) begin

@@ -8,6 +8,7 @@ module registor_unit
 )
 (
     input clk,
+    input reset,
     input LDIR,
     input PC_INC,
     input AC_INC,
@@ -47,7 +48,7 @@ IR
 (
     .clk(clk), 
     .LDIR(LDIR), 
-    .DR_in(DR_out), 
+    .DR_out(DR_out), 
     .counter_out(counter_out), 
     .data_out(counter_in)
 );
@@ -58,6 +59,7 @@ registor_with_inc #(
 )
 PC
 (
+    .reset(reset),
     .clk(clk), 
     .c_bus_in(c_bus_in), 
     .inc(PC_INC), 
@@ -173,7 +175,7 @@ DR
 (
     .clk(clk), 
     .c_bus_in(c_bus_in), 
-    .ram_in(ram_out), 
+    .ram_out(ram_out), 
     .WE(C_bus_ctrl_sig[2]), 
     .read(read), 
     .data_out(DR_out)

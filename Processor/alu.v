@@ -10,6 +10,7 @@ module alu
 )
 (
     input clk,
+    input reset,
     input [DATA_LEN - 1:0] A,
     input [DATA_LEN - 1:0] B,
     input [ALU_SIG_LEN - 1:0] select,
@@ -17,6 +18,10 @@ module alu
     output reg [DATA_LEN - 1:0] out,
     output reg finish
 );
+always @(reset) begin
+    if(reset == 1)  finish = 0;
+    
+end
 
 always @(A or select) begin
     // $display(select);

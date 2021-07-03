@@ -8,10 +8,18 @@ module counter
     input [INSTRUCTION_LEN - 1:0] IROut,
     input z_in,
     input start,
+    input reset,
     output reg[SM_SIG_LEN - 1:0] smInput,
     output reg[INSTRUCTION_LEN - 1:0] IRIn
 );
 reg [1:0] counter = 0;
+
+always @(reset) begin
+    if (reset == 1) begin
+        counter = 2'd0;
+        IRIn = 6'd1;
+    end 
+end
 
 always @(posedge clk) begin
     if(start == 1) begin
@@ -43,7 +51,6 @@ always @(posedge clk) begin
                 counter <= counter + 1;
                 if(counter == 2'd3)    
                 begin
-                    $display("dadada");
                     counter <= 2'd0;
                     IRIn <= 6'd1;
                 end

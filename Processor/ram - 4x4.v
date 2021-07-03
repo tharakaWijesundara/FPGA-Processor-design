@@ -27,10 +27,10 @@ initial begin
     memory[5] = 6'd37;
 
     memory[6] = 6'd14;
-    memory[7] = 8'h4C;
+    memory[7] = 8'h50;
 
     memory[8] = 6'd16;
-    memory[9] = 8'h58;
+    memory[9] = 8'h60;
 
     memory[10] = 6'd12;
     memory[11] = 8'h40;
@@ -40,7 +40,7 @@ initial begin
     memory[13] = 6'd4;
     memory[14] = 8'd11;
 
-    memory[15] = 8'd39;
+    memory[15] = 8'd40;
 
     memory[16] = 6'd8;
     memory[17] = 8'd11;
@@ -128,40 +128,56 @@ initial begin
     memory[60] = 16'd0;
     memory[61] = 16'd0;
     memory[62] = 16'd4;
-    memory[63] = 16'd3;
-    memory[64] = 16'd34;
-    memory[65] = 16'd44;
-    memory[66] = 16'd71;
-    memory[67] = 16'd43;
-    memory[68] = 16'd12;
-    memory[69] = 16'd78;
-    memory[70] = 16'd55;
-    memory[71] = 16'd92;
-    memory[72] = 16'd1;
-    memory[73] = 16'd1;
-    memory[74] = 16'd1;
-    memory[75] = 16'd1;
-    memory[76] = 16'd66;
-    memory[77] = 16'd12;
-    memory[78] = 16'd55;
-    memory[79] = 16'd34;
-    memory[80] = 16'd43;
-    memory[81] = 16'd4;
-    memory[82] = 16'd56;
-    memory[83] = 16'd67;
-    memory[84] = 16'd5;
-    memory[85] = 16'd98;
-    memory[86] = 16'd91;
-    memory[87] = 16'd90;
-    memory[88] = 16'd0;
-    memory[89] = 16'd0;
-    memory[90] = 16'd0;
-    memory[91] = 16'd0;
-    memory[92] = 16'd0;
-    memory[93] = 16'd0;
-    memory[94] = 16'd0;
-    memory[95] = 16'd0;
+    memory[63] = 16'd4;
+    memory[64] = 16'd23;
+    memory[65] = 16'd45;
+    memory[66] = 16'd44;
+    memory[67] = 16'd56;
+    memory[68] = 16'd66;
+    memory[69] = 16'd77;
+    memory[70] = 16'd3;
+    memory[71] = 16'd45;
+    memory[72] = 16'd11;
+    memory[73] = 16'd32;
+    memory[74] = 16'd34;
+    memory[75] = 16'd53;
+    memory[76] = 16'd3;
+    memory[77] = 16'd56;
+    memory[78] = 16'd12;
+    memory[79] = 16'd23;
+    memory[80] = 16'd66;
+    memory[81] = 16'd12;
+    memory[82] = 16'd55;
+    memory[83] = 16'd11;
+    memory[84] = 16'd34;
+    memory[85] = 16'd43;
+    memory[86] = 16'd4;
+    memory[87] = 16'd32;
+    memory[88] = 16'd56;
+    memory[89] = 16'd67;
+    memory[90] = 16'd5;
+    memory[91] = 16'd33;
+    memory[92] = 16'd98;
+    memory[93] = 16'd91;
+    memory[94] = 16'd90;
+    memory[95] = 16'd56;
     memory[96] = 16'd0;
+    memory[97] = 16'd0;
+    memory[98] = 16'd0;
+    memory[99] = 16'd0;
+    memory[100] = 16'd0;
+    memory[101] = 16'd0;
+    memory[102] = 16'd0;
+    memory[103] = 16'd0;
+    memory[104] = 16'd0;
+    memory[105] = 16'd0;
+    memory[106] = 16'd0;
+    memory[107] = 16'd0;
+    memory[108] = 16'd0;
+    memory[109] = 16'd0;
+    memory[110] = 16'd0;
+    memory[111] = 16'd0;
+
 
 end
 

@@ -1,6 +1,6 @@
 module ram #(
-    parameter DATA_LEN = 16;
-    parameter ADDRESS_LEN = 8;
+    parameter DATA_LEN = 16,
+    parameter ADDRESS_LEN = 8
 )
 (
     input clk,

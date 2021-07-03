@@ -11,6 +11,7 @@ module top_module
 (
     input clk,
     input start,
+    input reset,
     output read,
     output write,
     input [DATA_LEN - 1:0] ram_out,
@@ -42,6 +43,7 @@ counter #(
 )
 COUNTER
 (
+    .reset(reset),
     .clk(clk),//
     .IROut(counter_in),//
     .z_in(Z_Flag),//
@@ -85,7 +87,8 @@ ALU
     .select(ALU_to_SM), //
     .z_flag(Z_Flag), //
     .out(ALU_out),//
-    .finish(finish)
+    .finish(finish),
+    .reset(reset)
 );//
 
 registor_unit #(
@@ -114,7 +117,8 @@ RU
     .ram_out(ram_out), //
     .ram_addr(ram_addr),//
     .AC_out(AC_out),//
-    .read(read)
+    .read(read),
+    .reset(reset)
 );//
 
 endmodule
