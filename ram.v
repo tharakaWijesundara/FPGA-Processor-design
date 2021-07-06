@@ -25,11 +25,11 @@ reg [DATA_LEN - 1:0] memory [2 ** ADDRESS_LEN - 1:0];
 		memory[7] = 8'h5E;
 
 		memory[8] = 6'd16;
-		memory[9] = 8'h72;
+		memory[9] = 8'h7C;
 
 		memory[10] = 6'd12;
 		memory[11] = 8'h40;
-  
+
             memory[12] = 8'd58;
             memory[13] = 6'd4;
             memory[14] = 8'd11;
@@ -84,7 +84,7 @@ reg [DATA_LEN - 1:0] memory [2 ** ADDRESS_LEN - 1:0];
         memory[61] = 16'd0;
 
 		memory[62] = 16'd10;
-		memory[63] = 16'd2;
+		memory[63] = 16'd3;
 		memory[64] =16'd1;
 		memory[65] =16'd2;
 		memory[66] =16'd3;
@@ -118,38 +118,51 @@ reg [DATA_LEN - 1:0] memory [2 ** ADDRESS_LEN - 1:0];
 
 		memory[94] =16'd4;
 		memory[95] =16'd5;
-		memory[96] =16'd6;
-		memory[97] =16'd7;
-		memory[98] =16'd8;
-		memory[99] =16'd89;
-		memory[100] =16'd6;
-		memory[101] =16'd5;
-		memory[102] =16'd4;
-		memory[103] =16'd3;
-		memory[104] =16'd3;
-		memory[105] =16'd4;
-		memory[106] =16'd5;
-		memory[107] =16'd6;
-		memory[108] =16'd7;
-		memory[109] =16'd8;
-		memory[110] =16'd9;
-		memory[111] =16'd75;
-		memory[112] =16'd4;
-		memory[113] =16'd3;
+		memory[96] =16'd7;
+		memory[97] =16'd6;
+		memory[98] =16'd7;
+		memory[99] =16'd8;
+		memory[100] =16'd8;
+		memory[101] =16'd89;
+		memory[102] =16'd0;
+		memory[103] =16'd6;
+		memory[104] =16'd5;
+		memory[105] =16'd1;
+		memory[106] =16'd4;
+		memory[107] =16'd3;
+		memory[108] =16'd9;
+		memory[109] =16'd3;
+		memory[110] =16'd4;
+		memory[111] =16'd0;
+		memory[112] =16'd5;
+		memory[113] =16'd6;
+		memory[114] =16'd1;
+		memory[115] =16'd7;
+		memory[116] =16'd8;
+		memory[117] =16'd1;
+		memory[118] =16'd9;
+		memory[119] =16'd75;
+		memory[120] =16'd1;
+		memory[121] =16'd4;
+		memory[122] =16'd3;
+		memory[123] =16'd2;
 
-		memory[114] =16'd0;
-		memory[115] =16'd0;
-		memory[116] =16'd0;
-		memory[117] =16'd0;
-		memory[118] =16'd0;
-		memory[119] =16'd0;
+		memory[124] =16'd0;
+		memory[125] =16'd0;
+		memory[126] =16'd0;
+		memory[127] =16'd0;
+		memory[128] =16'd0;
+		memory[129] =16'd0;
+		memory[130] =16'd0;
+		memory[131] =16'd0;
+		memory[132] =16'd0;
 end
 
 always @(posedge clk) begin
     if(read==1) begin
         data_out <= {
             memory[address[ADDRESS_LEN * 3 - 1:ADDRESS_LEN * 2]],
-            memory[address[ADDRESS_LEN * 2 - 1:ADDRESS_LEN]], 
+            memory[address[ADDRESS_LEN * 2 - 1:ADDRESS_LEN]],
             memory[address[ADDRESS_LEN - 1:0]]
             };
     end

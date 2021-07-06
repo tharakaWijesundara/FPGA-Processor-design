@@ -5,12 +5,26 @@
 
 
 fh = open("ram.v", "w")
-mat_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9, 9, 92,
-         4, 6, 7, 89, 0, 8, 6, 5, 4, 3, 2, 5, 78, 9, 0, 0]
-mat_2 = [4, 5, 6, 7, 8, 89, 6, 5, 4, 3, 3, 4, 5, 6, 7, 8, 9, 75, 4, 3]
-M = 2
-N = 10
+# mat_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 9, 9, 9, 9, 92,
+#          4, 6, 7, 89, 0, 8, 6, 5, 4, 3, 2, 5, 78, 9, 0, 0]
+# mat_2 = [4, 5, 6, 7, 8, 89, 6, 5, 4, 3, 3, 4, 5, 6, 7, 8, 9, 75, 4, 3]
+# M = 3
+# N = 10
 
+mat_1 = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 9],
+         [9, 9, 9, 92, 4, 6, 7, 89, 0, 8],
+         [6, 5, 4, 3, 2, 5, 78, 9, 0, 0]]
+
+mat_2 = [[4, 5, 7],
+         [6, 7, 8],
+         [8, 89, 0],
+         [6, 5, 1],
+         [4, 3, 9],
+         [3, 4, 0],
+         [5, 6, 1],
+         [7, 8, 1],
+         [9, 75, 1],
+         [4, 3, 2]]
 
 try:
     fh.write('''
@@ -39,17 +53,20 @@ reg [DATA_LEN - 1:0] memory [2 ** ADDRESS_LEN - 1:0];\n''')
         memory[6] = 6'd14;\n\n''')
 
     temp = ""
-    temp += "\t\tmemory[7] = 8'h"+(hex(64+len(mat_1))[2:]).upper()+";\n\n"
+
+    temp += "\t\tmemory[7] = 8'h" + \
+        (hex(64+len(mat_1)*len(mat_1[0]))[2:]).upper()+";\n\n"
 
     temp += "\t\tmemory[8] = 6'd16;\n"
     temp += "\t\tmemory[9] = 8'h" + \
-        (hex(64+len(mat_1)+len(mat_2))[2:]).upper()+";\n\n"
+        (hex(64+(len(mat_1)*len(mat_1
+                                [0]))+(len(mat_2)*len(mat_2[0])))[2:]).upper()+";\n\n"
     temp += "\t\tmemory[10] = 6'd12;\n"
     temp += "\t\tmemory[11] = 8'h40;\n"
 
     fh.write(temp)
 
-    fh.write('''  
+    fh.write('''
             memory[12] = 8'd58;
             memory[13] = 6'd4;
             memory[14] = 8'd11;
@@ -104,24 +121,26 @@ reg [DATA_LEN - 1:0] memory [2 ** ADDRESS_LEN - 1:0];\n''')
         memory[61] = 16'd0;\n
 ''')
     temp = ""
-    temp += "\t\tmemory[62] = 16'd" + str(N) + ";\n"
-    temp += "\t\tmemory[63] = 16'd" + str(M) + ";\n"
+    temp += "\t\tmemory[62] = 16'd" + str(len(mat_2)) + ";\n"
+    temp += "\t\tmemory[63] = 16'd" + str(len(mat_2[0])) + ";\n"
     counter = 63
     for i in range(len(mat_1)):
-        counter = counter+1
-        temp += "\t\tmemory["+str(counter)+"] =16'd"+str(mat_1[i])+";\n"
+        for j in range(len(mat_1[0])):
+            counter = counter+1
+            temp += "\t\tmemory["+str(counter)+"] =16'd"+str(mat_1[i][j])+";\n"
     temp += "\n"
     fh.write(temp)
     temp = ""
 
     for i in range(len(mat_2)):
-        counter = counter+1
-        temp += "\t\tmemory["+str(counter)+"] =16'd"+str(mat_2[i])+";\n"
+        for j in range(len(mat_2[0])):
+            counter = counter+1
+            temp += "\t\tmemory["+str(counter)+"] =16'd"+str(mat_2[i][j])+";\n"
     temp += "\n"
     fh.write(temp)
     temp = ""
 
-    for i in range(int((len(mat_1)/N)*M)):
+    for i in range(len(mat_1)*len(mat_2[0])):
         counter = counter+1
         temp += "\t\tmemory["+str(counter)+"] =16'd0;\n"
     temp += "end\n"
@@ -134,7 +153,7 @@ always @(posedge clk) begin
     if(read==1) begin
         data_out <= {
             memory[address[ADDRESS_LEN * 3 - 1:ADDRESS_LEN * 2]],
-            memory[address[ADDRESS_LEN * 2 - 1:ADDRESS_LEN]], 
+            memory[address[ADDRESS_LEN * 2 - 1:ADDRESS_LEN]],
             memory[address[ADDRESS_LEN - 1:0]]
             };
     end
@@ -152,33 +171,33 @@ finally:
     fh.close()
 
 
-X = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 9],
-     [9, 9, 9, 92, 4, 6, 7, 89, 0, 8],
-     [6, 5, 4, 3, 2, 5, 78, 9, 0, 0]]
-# 3x4 matrix
+# X = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 9],
+#      [9, 9, 9, 92, 4, 6, 7, 89, 0, 8],
+#      [6, 5, 4, 3, 2, 5, 78, 9, 0, 0]]
+# # 3x4 matrix
 
-Y = [[4, 5],
-     [6, 7],
-     [8, 89],
-     [6, 5],
-     [4, 3],
-     [3, 4],
-     [5, 6],
-     [7, 8],
-     [9, 75],
-     [4, 3]]
+# Y = [[4, 5],
+#      [6, 7],
+#      [8, 89],
+#      [6, 5],
+#      [4, 3],
+#      [3, 4],
+#      [5, 6],
+#      [7, 8],
+#      [9, 75],
+#      [4, 3]]
 # result is 3x4
-result = [[0, 0, 0, 0],
-          [0, 0, 0, 0],
-          [0, 0, 0, 0]]
-
+# result= [[0, 0, 0, 0],
+#           [0, 0, 0, 0],
+#           [0, 0, 0, 0]]
+result = [[0 for x in range(len(mat_1))] for y in range(len(mat_2[0]))]
 # iterate through rows of X
-for i in range(len(X)):
+for i in range(len(mat_1)):
     # iterate through columns of Y
-    for j in range(len(Y[0])):
+    for j in range(len(mat_2[0])):
         # iterate through rows of Y
-        for k in range(len(Y)):
-            result[i][j] += X[i][k] * Y[k][j]
+        for k in range(len(mat_2)):
+            result[i][j] += mat_1[i][k] * mat_2[k][j]
 
 for r in result:
     print(r)
