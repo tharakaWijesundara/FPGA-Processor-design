@@ -11,15 +11,13 @@ module ins_registor
     output reg [INSTRUCTION_LEN - 1:0] data_out
 );
 
-always @(LDIR) begin
-    if(LDIR==1) begin
+
+
+always @(counter_out or LDIR) begin
+	if(LDIR==1) begin
         data_out <= DR_out[INSTRUCTION_LEN - 1:0];
     end 
-end
-
-
-always @(counter_out) begin
-    if(counter_out != 6'd0) begin
+    else if(counter_out != 6'd0) begin
         data_out <= counter_out;
     end
     

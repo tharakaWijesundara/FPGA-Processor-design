@@ -8,419 +8,303 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/intelFPGA/20.1
+dD:/Processor/Test_benches
 vaddress_registor
-Z0 !s110 1624981334
+!s110 1625587755
 !i10b 1
 !s100 03QzNSI3XcBLXIUPIm3SK2
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IA1ZJ1GZNWJI8Z^0S0n3ih3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches
-w1624507881
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches
+w1625586143
 8C:/OtherActivities/FPGA/Processor_design/Processor/address_registor.v
 FC:/OtherActivities/FPGA/Processor_design/Processor/address_registor.v
-!i122 241
+!i122 34
 L0 1 18
-Z4 OV;L;2020.1;71
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1624981334.000000
+!s108 1625587755.000000
 !s107 C:/OtherActivities/FPGA/Processor_design/Processor/address_registor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/address_registor.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z4 o-work work
+Z5 tCvgOpt 0
 valu
-Z8 !s110 1625165287
+Z6 !s110 1625576371
 !i10b 1
-!s100 ?kag1bdVdCZMGZTOlCgNC1
+!s100 @:9]0eBJ@j3[Ae39Q9<GH1
+R0
+IljMTPbl_>9ib0RciJNEVP2
 R1
-I8alhTn2ca[iElBIPI67_m3
 R2
-R3
-w1625164990
+w1625576363
 8C:/OtherActivities/FPGA/Processor_design/Processor/alu.v
 FC:/OtherActivities/FPGA/Processor_design/Processor/alu.v
-!i122 277
-L0 6 52
-R4
+!i122 17
+L0 6 63
+R3
 r1
 !s85 0
 31
-Z9 !s108 1625165287.000000
+Z7 !s108 1625576371.000000
 !s107 C:/OtherActivities/FPGA/Processor_design/Processor/alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/alu.v|
 !i113 1
-R6
-R7
+R4
+R5
 vcounter
-!s110 1624987963
+Z8 !s110 1625576030
 !i10b 1
-!s100 QCcaDz^Q[g5UZ1mQ5@5WA2
+!s100 zE2WY4:jjKm3zP36i2c_01
+R0
+IfCnTgU]nc4bmH]6@Wg?]00
 R1
-Im_L];=115S=hcC4G?4bjB0
 R2
-R3
-w1624987925
+w1625542182
 8C:/OtherActivities/FPGA/Processor_design/Processor/counter.v
 FC:/OtherActivities/FPGA/Processor_design/Processor/counter.v
-!i122 250
-L0 1 308
-R4
+!i122 2
+L0 1 316
+R3
 r1
 !s85 0
 31
-!s108 1624987963.000000
+Z9 !s108 1625576030.000000
 !s107 C:/OtherActivities/FPGA/Processor_design/Processor/counter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/counter.v|
 !i113 1
-R6
-R7
-vdata_registor
-Z10 !s110 1624981333
-!i10b 1
-!s100 5LW5FGELAX[Fll;RH0B8e0
-R1
-I?BgUK5ZCQ?5S@l`W[05kE2
-R2
-R3
-w1624980421
-8C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
-!i122 232
-L0 1 22
 R4
-r1
-!s85 0
-31
-Z11 !s108 1624981332.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v|
-!i113 1
-R6
-R7
-vins_registor
-R10
-!i10b 1
-!s100 ?BUokZC>Y5hGCb0dMJVAh3
-R1
-IP3CVMm@BTDaZCN]Scn84k1
-R2
-R3
-w1624980474
-8C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v
-!i122 233
-L0 1 28
-R4
-r1
-!s85 0
-31
-Z12 !s108 1624981333.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v|
-!i113 1
-R6
-R7
-vmux
-R10
-!i10b 1
-!s100 46eOXal?4UBDTMLlG23fV3
-R1
-INNG9gIaA<SLHADa^^T45b3
-R2
-R3
-w1624511280
-8C:/OtherActivities/FPGA/Processor_design/Processor/mux.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/mux.v
-!i122 234
-L0 1 50
-R4
-r1
-!s85 0
-31
-R12
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/mux.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/mux.v|
-!i113 1
-R6
-R7
-vprocessor
-!s110 1625164897
-!i10b 1
-!s100 zH]od8KYDUG3gi:DcmBJb0
-R1
-I^5Yi>ic<o7<n`Md54iMQe0
-R2
-R3
-w1625162641
-8C:/OtherActivities/FPGA/Processor_design/Processor/processor.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/processor.v
-!i122 276
-L0 1 175
-R4
-r1
-!s85 0
-31
-!s108 1625164897.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/processor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/processor.v|
-!i113 1
-R6
-R7
-vram
-!s110 1625159768
-!i10b 1
-!s100 4FmU_`bUc@_Xm7lahZW:K0
-R1
-I`o=ZiCP[oQ_JkL942;k101
-R2
-R3
-w1625159534
-8C:/OtherActivities/FPGA/Processor_design/Processor/ram.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/ram.v
-!i122 273
-L0 1 184
-R4
-r1
-!s85 0
-31
-!s108 1625159768.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/ram.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/ram.v|
-!i113 1
-R6
-R7
-vregistor_no_inc
-R10
-!i10b 1
-!s100 MALHaQ758f<^;ai:zIoS53
-R1
-I2W9dD@Dk?D?Eme_loRM782
-R2
-R3
-w1624511213
-8C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
-!i122 236
-L0 1 21
-R4
-r1
-!s85 0
-31
-R12
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v|
-!i113 1
-R6
-R7
-vregistor_unit
-R10
-!i10b 1
-!s100 XhImab=aF0DcCh]z:Pkb[1
-R1
-I;IFQA=^RAF>iZ=<HjHURg0
-R2
-R3
-w1624980481
-8C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v
-!i122 237
-L0 1 219
-R4
-r1
-!s85 0
-31
-R12
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v|
-!i113 1
-R6
-R7
-vregistor_with_inc
-R0
-!i10b 1
-!s100 U^4jmbSLX27`c_Y506e[E2
-R1
-IWbR`o83E3`4hSR^P6<N_A3
-R2
-R3
-w1624945957
-8C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
-!i122 238
-L0 1 34
-R4
-r1
-!s85 0
-31
-R12
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v|
-!i113 1
-R6
-R7
-vstate_machine
-R0
-!i10b 1
-!s100 k=N5LH_ld4Oaon3zl:Rf82
-R1
-IH7eRZeSPOD7`WlP>9nJ^b1
-R2
-R3
-w1624511254
-8C:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v
-!i122 239
-L0 1 872
-R4
-r1
-!s85 0
-31
 R5
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v|
-!i113 1
-R6
-R7
-vtest_bench_alu
-!s110 1624981331
-!i10b 1
-!s100 CMVOlU3J8IQQkU`1JPXNW0
-R1
-IjznMKVkgIfl1?7SV[>giX2
-R2
-R3
-w1623602008
-8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_alu.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_alu.v
-!i122 226
-L0 3 79
-R4
-r1
-!s85 0
-31
-Z13 !s108 1624981331.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_alu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_alu.v|
-!i113 1
-R6
-R7
-vtest_bench_counter
-!s110 1625149685
-!i10b 1
-!s100 F2eTQaE_:NZfgXQOa43_O0
-R1
-IEa<GGkfZ=4MbbVS4?ZWJR3
-R2
-R3
-w1623487127
-8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v
-!i122 268
-L0 3 72
-R4
-r1
-!s85 0
-31
-!s108 1625149685.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_counter.v|
-!i113 1
-R6
-R7
-vtest_bench_registors
-Z14 !s110 1624981332
-!i10b 1
-!s100 0iMl3XSgeao_YCa2O_z<^3
-R1
-IM[2gIbjPkRkFi@AfIVf>b2
-R2
-R3
-w1623573260
-8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v
-!i122 228
-L0 3 99
-R4
-r1
-!s85 0
-31
-R13
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_registers.v|
-!i113 1
-R6
-R7
-vtest_bench_SM
-R14
-!i10b 1
-!s100 Q<Vd<]4zG<l7bI?TzHLF=3
-R1
-Iz4f;2EG2XCNNlcm@dZGeT1
-R2
-R3
-w1623738160
-8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_SM.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_SM.v
-!i122 229
-L0 3 36
-R4
-r1
-!s85 0
-31
-R11
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_SM.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_SM.v|
-!i113 1
-R6
-R7
-ntest_bench_@s@m
-vtest_bench_top_module
-!s110 1623989689
-!i10b 1
-!s100 oS8F=H4OX`cK;EMbabb:33
-R1
-IK19E^iKzIe4ba?O9Y]l>B3
-R2
-R3
-w1623813649
-8C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_top_module.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_top_module.v
-!i122 79
-L0 3 44
-R4
-r1
-!s85 0
-31
-!s108 1623989689.000000
-!s107 C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_top_module.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_bench_top_module.v|
-!i113 1
-R6
-R7
-vtop_module
+vdata_registor
 R8
 !i10b 1
-!s100 `?FacgTh5jkD`[a>QgCgA0
+!s100 5LW5FGELAX[Fll;RH0B8e0
+R0
+I?BgUK5ZCQ?5S@l`W[05kE2
 R1
-IN>bKV=I;Xg@>5]Wl8?Y:f2
 R2
+w1624980422
+8C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
+!i122 3
+L0 1 22
 R3
-w1625162860
-8C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v
-FC:/OtherActivities/FPGA/Processor_design/Processor/top_module.v
-!i122 278
-L0 1 124
-R4
 r1
 !s85 0
 31
 R9
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v|
+!i113 1
+R4
+R5
+vins_registor
+R8
+!i10b 1
+!s100 HaBBXzf0kQ^@@=5GzG3=L0
+R0
+IlOUCedNne0>]mB;HSzO=k2
+R1
+R2
+w1625492138
+8C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v
+!i122 4
+L0 1 26
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/ins_registor.v|
+!i113 1
+R4
+R5
+vmux
+Z10 !s110 1625576031
+!i10b 1
+!s100 46eOXal?4UBDTMLlG23fV3
+R0
+INNG9gIaA<SLHADa^^T45b3
+R1
+R2
+w1624511282
+8C:/OtherActivities/FPGA/Processor_design/Processor/mux.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/mux.v
+!i122 5
+L0 1 50
+R3
+r1
+!s85 0
+31
+Z11 !s108 1625576031.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/mux.v|
+!i113 1
+R4
+R5
+vprocessor
+Z12 !s110 1625606167
+!i10b 1
+!s100 MLBMF>zWT]h[[F;m1OQg53
+R0
+IPROEN6z<NFQF:hEg4Z4aC2
+R1
+R2
+w1625606156
+8C:/OtherActivities/FPGA/Processor_design/Processor/processor.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/processor.v
+!i122 76
+L0 1 224
+R3
+r1
+!s85 0
+31
+Z13 !s108 1625606167.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/processor.v|
+!i113 1
+R4
+R5
+vram
+R12
+!i10b 1
+!s100 k3LkELQDKXOO[edfzc8;Z0
+R0
+IV_O3e[SkCm@:`d>65[UcC2
+R1
+R2
+w1625606159
+8C:/OtherActivities/FPGA/Processor_design/Processor/ram.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/ram.v
+!i122 77
+L0 2 1248
+R3
+r1
+!s85 0
+31
+R13
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/ram.v|
+!i113 1
+R4
+R5
+vregistor_no_inc
+R10
+!i10b 1
+!s100 MALHaQ758f<^;ai:zIoS53
+R0
+I2W9dD@Dk?D?Eme_loRM782
+R1
+R2
+w1624511214
+8C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
+!i122 10
+L0 1 21
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v|
+!i113 1
+R4
+R5
+vregistor_unit
+Z14 !s110 1625576032
+!i10b 1
+!s100 XhImab=aF0DcCh]z:Pkb[1
+R0
+I;IFQA=^RAF>iZ=<HjHURg0
+R1
+R2
+w1624980482
+8C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v
+!i122 11
+L0 1 219
+R3
+r1
+!s85 0
+31
+Z15 !s108 1625576032.000000
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v|
+!i113 1
+R4
+R5
+vregistor_with_inc
+R6
+!i10b 1
+!s100 4]GbXMPI7_W[aji=U;YZC2
+R0
+I@07zU?aFeQC;UnL7Ec=k[3
+R1
+R2
+w1625576207
+8C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v
+!i122 19
+L0 1 38
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/registor_with_inc.v|
+!i113 1
+R4
+R5
+vstate_machine
+R14
+!i10b 1
+!s100 k=N5LH_ld4Oaon3zl:Rf82
+R0
+IH7eRZeSPOD7`WlP>9nJ^b1
+R1
+R2
+w1624511256
+8C:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v
+!i122 13
+L0 1 872
+R3
+r1
+!s85 0
+31
+R15
+!s107 C:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/state_machine.v|
+!i113 1
+R4
+R5
+vtop_module
+R14
+!i10b 1
+!s100 `?FacgTh5jkD`[a>QgCgA0
+R0
+IN>bKV=I;Xg@>5]Wl8?Y:f2
+R1
+R2
+w1625162862
+8C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v
+FC:/OtherActivities/FPGA/Processor_design/Processor/top_module.v
+!i122 14
+L0 1 124
+R3
+r1
+!s85 0
+31
+R15
 !s107 C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v|
 !i113 1
-R6
-R7
+R4
+R5

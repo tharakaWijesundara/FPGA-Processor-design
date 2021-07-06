@@ -13,16 +13,24 @@ module counter
     output reg[INSTRUCTION_LEN - 1:0] IRIn
 );
 reg [1:0] counter = 0;
+reg reset_registor;
 
-always @(reset) begin
-    if (reset == 1) begin
-        counter = 2'd0;
-        IRIn = 6'd1;
-    end 
+initial begin
+    reset_registor = 1;
 end
 
 always @(posedge clk) begin
-    if(start == 1) begin
+    if(reset == 1)  reset_registor <= 0;
+    else            reset_registor <= 1;
+end
+
+
+always @(posedge clk) begin
+	if (reset == 1 && reset_registor == 1) begin
+        counter <= 2'd0;
+        IRIn <= 6'd1;
+    end 
+    else if(start == 1) begin
         case(IROut)
             6'd1 : begin
                 case(counter)

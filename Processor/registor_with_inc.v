@@ -9,18 +9,22 @@ module registor_with_inc #(
     input reset,
     output reg [DATA_LEN - 1:0] data_out
 );
+reg reset_registor;
 
 initial begin
     data_out = 16'd0;
+    reset_registor = 1;
 end
-
-always @(reset) begin
-    if(reset == 1)  data_out = 16'd0;
-    
+always @(posedge clk) begin
+    if(reset == 1)  reset_registor <= 0;
+    else            reset_registor <= 1;
 end
 
 always @(posedge clk) begin
-    if (inc) begin
+	if(reset == 1 && reset_registor == 1)begin
+        data_out <= 16'd0;
+    end 
+    else if (inc) begin
         data_out <= data_out + 1;
     end
     
