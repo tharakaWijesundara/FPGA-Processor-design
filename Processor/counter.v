@@ -198,6 +198,16 @@ always @(posedge clk) begin
             6'd37 : begin
                 smInput <= 6'd37;
                 IRIn <= 6'd1;
+                // case(counter)
+                //     2'd0 : smInput <= 6'd37;
+                //     2'd1 : smInput <= 6'd55;
+                // endcase
+                // counter <= counter + 1;
+                // if(counter == 2'd1)
+                // begin
+                //     counter <= 2'd0;
+                //     IRIn <= 6'd1;
+                // end
             end
             6'd38 : begin
                 smInput <= 6'd38;
@@ -206,10 +216,30 @@ always @(posedge clk) begin
             6'd39 : begin
                 smInput <= 6'd39;
                 IRIn <= 6'd1;
+                // case(counter)
+                //     2'd0 : smInput <= 6'd39;
+                //     2'd1 : smInput <= 6'd60;
+                // endcase
+                // counter <= counter + 1;
+                // if(counter == 2'd1)
+                // begin
+                //     counter <= 2'd0;
+                //     IRIn <= 6'd1;
+                // end
             end
             6'd40 : begin
                 smInput <= 6'd40;
                 IRIn <= 6'd1;
+                // case(counter)
+                //     2'd0 : smInput <= 6'd40;
+                //     2'd1 : smInput <= 6'd60;
+                // endcase
+                // counter <= counter + 1;
+                // if(counter == 2'd1)
+                // begin
+                //     counter <= 2'd0;
+                //     IRIn <= 6'd1;
+                // end
             end
             6'd41 : begin
                 smInput <= 6'd41;

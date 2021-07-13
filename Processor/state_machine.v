@@ -851,6 +851,20 @@ always @(IR) begin
             read <= 0;
             write <= 0;
         end
+    //CLEAR_C_BUS
+        6'b111100: begin
+            A_bus <= 4'b1111;
+            ALU <= 3'b101;
+            C_bus <= 11'b00000000000;
+            LDIR <= 0;
+            PC_INC <= 0;
+            AC_INC <= 0;
+            RA_INC <= 0;
+            RB_INC <= 0;
+            RC_INC <= 0;
+            read <= 0;
+            write <= 0;
+        end
     //NOP
         default: begin
             A_bus <= 4'b1111;

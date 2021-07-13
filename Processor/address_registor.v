@@ -10,7 +10,7 @@ module address_registor #(
 );
 
 always @(c_bus_in or WE) begin
-    if (WE==1) begin
+    if (WE===1'b1) begin
         data_out <= c_bus_in[ADDRESS_LEN - 1:0];
     end 
 end

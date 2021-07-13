@@ -1,0 +1,23 @@
+`timescale 1us/1us
+
+module test_processor ();
+
+    reg clk;
+    always #25 clk=~clk; // 50MHz clock
+    reg start;
+
+    wire finish_process;
+    processor Processor(.clk(clk), .start(start), .finish_process(finish_process));
+
+    initial begin
+    
+        clk = 1;
+        start = 1;
+        while(finish_process !== 1) begin
+             $display(".");
+        end;
+        $display("Time - %0t", $realtime);
+        $finish;
+    end
+    
+endmodule

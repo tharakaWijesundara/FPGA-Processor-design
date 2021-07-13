@@ -5,7 +5,7 @@ module processor (
 );
 reg begin_process = 0;
 localparam NO_OF_CORES = 6;
-reg[4:0] NO_OF_ROWS = 19;
+reg[4:0] NO_OF_ROWS = 23;
 
 localparam INSTRUCTION_LEN = 6;
 localparam ALU_SIG_LEN = 3;
@@ -31,7 +31,7 @@ wire [DATA_LEN * NO_OF_CORES - 1:0] data_out;
 reg read;
 reg write;
 
-reg [2:0] running_cores = 0;
+reg [3:0] running_cores = 0;
 
 integer k;
 

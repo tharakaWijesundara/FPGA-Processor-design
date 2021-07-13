@@ -5,19 +5,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	registor_unit
 
-} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module top_module
-
-Top level modules:
-	top_module
-
 } {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/counter.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/counter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module counter
 
 Top level modules:
 	counter
+
+} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/top_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_module
+
+Top level modules:
+	top_module
 
 } {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/data_registor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -82,11 +82,32 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ram
 
+} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/ram.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/processor.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/processor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module processor
+
+Top level modules:
+	processor
+
 } {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module registor_no_inc
 
 Top level modules:
 	registor_no_inc
+
+} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_processor
+
+Top level modules:
+	test_processor
 
 } {} {}}

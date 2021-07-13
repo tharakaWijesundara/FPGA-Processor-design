@@ -57,6 +57,7 @@ always @(A or select or reset) begin
             end
             3'b101 : begin
                 out <= 16'd0;
+                $display("ALU = 0");
             end
             3'b110 : begin
                 finish <= 1;

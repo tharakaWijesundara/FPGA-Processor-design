@@ -19,8 +19,6 @@ module mux #(
 );
 
 always @(select) begin
-    // $display("#########");
-    // $display(select);
     case (select)
         4'b0110: data_out <= DR;
         4'b0011: data_out <= R1;
@@ -33,18 +31,6 @@ always @(select) begin
         4'b1001: data_out <= AC;
         4'b1010: data_out <= PC;
     endcase
-    // $display("///////");
-    // $display(DR);
-    // $display(R1);
-    // $display(R2);
-    // $display(R3);
-    // $display(RA);
-    // $display(RB);
-    // $display(RC);
-    // $display(AC);
-    // $display(PC);
-    // $display("%%%%%%");
-    // $display(data_out);
 end
     
 endmodule
