@@ -1,6 +1,8 @@
+# Compile of ram.v was successful.
+# Compile of processor.v was successful.
 vsim -gui work.processor
 # vsim -gui work.processor 
-# Start time: 10:12:56 on Jul 13,2021
+# Start time: 16:53:53 on Jul 14,2021
 # Loading work.processor
 # Loading work.ram
 # Loading work.top_module
@@ -38,54 +40,6 @@ vsim -gui work.processor
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
 #    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
 # ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[2]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[2]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[2]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[2]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[3]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[3]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[3]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[3]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[4]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[4]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[4]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[4]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[5]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[5]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[5]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
-#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[5]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
-# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
 add wave -position end  sim:/processor/write_signal
 add wave -position end  sim:/processor/write
 add wave -position end  sim:/processor/start_rest
@@ -115,66 +69,420 @@ add wave -position end  sim:/processor/begin_process
 add wave -position end  sim:/processor/ALU_SIG_LEN
 add wave -position end  sim:/processor/ADDRESS_LEN
 add wave -position end  sim:/processor/address
-force -freeze sim:/processor/start 1 0
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# ALU = 0
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# ALU = 0
-run
-run
-# End time: 11:58:20 on Jul 13,2021, Elapsed time: 1:45:24
-# Errors: 0, Warnings: 49
+vsim -gui work.test_processor
+# End time: 16:54:20 on Jul 14,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 19
+# vsim -gui work.test_processor 
+# Start time: 16:54:20 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# ** Note: $stop    : C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v(23)
+#    Time: 27701 us  Iteration: 0  Instance: /test_processor
+# Break in Module test_processor at C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v line 23
+quit -sim
+# End time: 16:54:49 on Jul 14,2021, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 17
+# Compile of processor.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 16:55:10 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Compile of processor.v was successful.
+vsim -gui work.test_processor
+# End time: 17:02:35 on Jul 14,2021, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 35
+# vsim -gui work.test_processor 
+# Start time: 17:02:35 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# ** Note: $stop    : C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v(23)
+#    Time: 27701 us  Iteration: 0  Instance: /test_processor
+# Break in Module test_processor at C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v line 23
+quit -sim
+# End time: 17:04:23 on Jul 14,2021, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 33
+# Compile of processor.v was successful.
+# Compile of processor.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 17:05:05 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# ** Note: $stop    : C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v(23)
+#    Time: 27701 us  Iteration: 0  Instance: /test_processor
+# Break in Module test_processor at C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v line 23
+quit -sim
+# End time: 17:05:23 on Jul 14,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 19
+# Compile of processor.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 17:05:51 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# ** Note: $stop    : C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v(23)
+#    Time: 27701 us  Iteration: 0  Instance: /test_processor
+# Break in Module test_processor at C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v line 23
+quit -sim
+# End time: 17:06:11 on Jul 14,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 42
+# Compile of processor.v was successful.
+# Compile of ram.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 17:07:22 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[1]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[2]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[3]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/AC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/RA File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/RB File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[4]/INS/RU/RC File: C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/OtherActivities/FPGA/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# ** Note: $stop    : C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v(23)
+#    Time: 5038651 us  Iteration: 0  Instance: /test_processor
+# Break in Module test_processor at C:/OtherActivities/FPGA/Processor_design/Processor/Test_benches/test_processor.v line 23

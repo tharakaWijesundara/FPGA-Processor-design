@@ -8,9 +8,9 @@ import numpy as np
 
 fh = open("ram.v", "w")
 
-M1_ROWS = 23
-M1M2_COMMON = 24
-M2_COLS = 16
+M1_ROWS = 15
+M1M2_COMMON = 20
+M2_COLS = 21
 
 VAL_RANGE = 50
 

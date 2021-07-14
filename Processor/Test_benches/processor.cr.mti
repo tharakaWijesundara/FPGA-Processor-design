@@ -82,20 +82,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ram
 
-} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/ram.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/ram.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ram
-
-Top level modules:
-	ram
-
-} {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/processor.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/processor.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module processor
-
-Top level modules:
-	processor
-
 } {} {}} C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v {1 {vlog -work work -stats=none C:/OtherActivities/FPGA/Processor_design/Processor/registor_no_inc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module registor_no_inc

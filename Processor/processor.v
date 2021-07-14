@@ -4,8 +4,8 @@ module processor (
     output reg finish_process
 );
 reg begin_process = 0;
-localparam NO_OF_CORES = 6;
-reg[4:0] NO_OF_ROWS = 23;
+localparam NO_OF_CORES = 5;
+reg[4:0] NO_OF_ROWS =15;
 
 localparam INSTRUCTION_LEN = 6;
 localparam ALU_SIG_LEN = 3;
@@ -198,7 +198,14 @@ always @(address or finish_cores or begin_process) begin
                     round = 1;
 
                 end
-                else if(&finish_cores == 1)    finish_process <= 1;
+                else begin
+                    for(j = 0; j<running_cores; j=j+1)begin : final_step
+                        if(j < NO_OF_CORES) begin
+                            if(finish_cores[j] !== 1'b1)  disable final_step;
+                        end 
+                        finish_process <= 1;
+                    end
+                end
             end
             else begin
                 if(address[(round-2)*ADDRESS_LEN +: ADDRESS_LEN] === {12'd23}) begin
