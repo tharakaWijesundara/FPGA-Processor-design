@@ -1,0 +1,531 @@
+# Compile of address_registor.v was successful.
+# Compile of alu.v was successful.
+# Compile of counter.v was successful.
+# Compile of data_registor.v was successful.
+# Compile of ins_registor.v was successful.
+# Compile of mux.v was successful.
+# Compile of processor.v was successful.
+# Compile of ram - 4x4.v was successful.
+# Compile of ram 3x3.v was successful.
+# Compile of ram 19x24.v was successful.
+# Compile of ram.v failed with 2 errors.
+# Compile of registor_no_inc.v was successful.
+# Compile of registor_unit.v was successful.
+# Compile of registor_with_inc.v was successful.
+# Compile of state_machine.v was successful.
+# Compile of top_module.v was successful.
+# 16 compiles, 1 failed with 2 errors.
+# Compile of ram.v was successful.
+# Load canceled
+# Compile of test_processor.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:25:36 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+quit -sim
+# End time: 19:30:01 on Jul 14,2021, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 16
+# Compile of ram.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:30:26 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Break in Module test_processor at C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v line 17
+quit -sim
+# End time: 19:37:48 on Jul 14,2021, Elapsed time: 0:07:22
+# Errors: 0, Warnings: 10
+# Compile of ram.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:38:53 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 19:43:09 on Jul 14,2021, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 10
+# Compile of ram.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:43:28 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Break in Module test_processor at C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v line 21
+# internal error on MenuItemCan
+# m is .mBar.file label is Save Format... state is disabled
+#  Trace back: 
+#    <5:eval:1: ::Vsimmenu::MenuItemCan .mBar.file {Save Format...} disabled
+#    >4:proc:527: ::.main_pane.source.interior.cs.body.srcobj Action .main_pane.source SetMenuState {{can_open {::Vsimmenu::MenuItemCan .mBar.file Open...}} {can_close_file {::Vsimmenu::MenuItemCan .mBar.file Close}} {can_save {::Vsimmenu::MenuItemCan .mBar.file {Save Format...}}} {can_saveas {::Vsimmenu::MenuItemCan .mBar.file {Save As...}}} {can_report {::Vsimmenu::MenuItemCan .mBar.file Report...}} {can_use_source_file {::Vsimmenu::MenuItemCan .mBar.file {Use Source...}}} {can_environment {::Vsimmenu::MenuItemCan .mBar.file Environment}} {can_page_setup {::Vsimmenu::MenuItemCan .mBar.file {Page Setup...}}} {can_print {::Vsimmenu::MenuItemCan .mBar.file Print...}} {can_print_postscript {::Vsimmenu::MenuItemCan .mBar.file {Print Postscript...}}} {can_close_window {::Vsimmenu::MenuItemCan .mBar.file {Close Window}}}}
+#    <3:eval:1: ::namespace inscope ::vsimwidgets::Srcobj {.main_pane.source.interior.cs.body.srcobj Action} .main_pane.source SetMenuState {{can_open {::Vsimmenu::MenuItemCan .mBar.file Open...}} {can_close_file {::Vsimmenu::MenuItemCan .mBar.file Close}} {can_save {::Vsimmenu::MenuItemCan .mBar.file {Save Format...}}} {can_saveas {::Vsimmenu::MenuItemCan .mBar.file {Save As...}}} {can_report {::Vsimmenu::MenuItemCan .mBar.file Report...}} {can_use_source_file {::Vsimmenu::MenuItemCan .mBar.file {Use Source...}}} {can_environment {::Vsimmenu::MenuItemCan .mBar.file Environment}} {can_page_setup {::Vsimmenu::MenuItemCan .mBar.file {Page Setup...}}} {can_print {::Vsimmenu::MenuItemCan .mBar.file Print...}} {can_print_postscript {::Vsimmenu::MenuItemCan .mBar.file {Print Postscript...}}} {can_close_window {::Vsimmenu::MenuItemCan .mBar.file {Close Window}}}}
+#    >2:eval:1: ::.vcop Action SetMenuState {{can_open {::Vsimmenu::MenuItemCan .mBar.file Open...}} {can_close_file {::Vsimmenu::MenuItemCan .mBar.file Close}} {can_save {::Vsimmenu::MenuItemCan .mBar.file {Save Format...}}} {can_saveas {::Vsimmenu::MenuItemCan .mBar.file {Save As...}}} {can_report {::Vsimmenu::MenuItemCan .mBar.file Report...}} {can_use_source_file {::Vsimmenu::MenuItemCan .mBar.file {Use Source...}}} {can_environment {::Vsimmenu::MenuItemCan .mBar.file Environment}} {can_page_setup {::Vsimmenu::MenuItemCan .mBar.file {Page Setup...}}} {can_print {::Vsimmenu::MenuItemCan .mBar.file Print...}} {can_print_postscript {::Vsimmenu::MenuItemCan .mBar.file {Print Postscript...}}} {can_close_window {::Vsimmenu::MenuItemCan .mBar.file {Close Window}}}}
+#    <1:proc:107: ::Vsimmenu::DefaultMenuPostCmd .mBar.file {FileMenuPostCmd .mBar.file} SetMenuState
+quit -sim
+# End time: 19:45:18 on Jul 14,2021, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 10
+# Compile of ram.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:45:29 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 19:46:42 on Jul 14,2021, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 10
+# Compile of alu.v was successful.
+# Compile of ram.v was successful.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:46:57 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 19:48:34 on Jul 14,2021, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 11
+# Compile of alu.v was successful.
+# Compile of state_machine.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:48:48 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Break in Module registor_with_inc at C:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v line 18
+quit -sim
+# End time: 19:49:59 on Jul 14,2021, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 10
+# Compile of counter.v was successful.
+# Compile of state_machine.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:50:11 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Hiii
+# Break key hit
+# Break in Module test_processor at C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v line 17
+# Break key hit
+quit -sim
+# End time: 19:51:43 on Jul 14,2021, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 10
+# Compile of counter.v was successful.
+# Compile of state_machine.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test_processor
+# vsim -gui work.test_processor 
+# Start time: 19:52:03 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Simulation stop requested.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 20:05:40 on Jul 14,2021, Elapsed time: 0:13:37
+# Errors: 0, Warnings: 9
+# Compile of processor.v was successful.
+# Compile of ram.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 20:05:56 on Jul 14,2021
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end  sim:/processor/write_signal
+add wave -position end  sim:/processor/write
+add wave -position end  sim:/processor/start_rest
+add wave -position end  sim:/processor/start_cores
+add wave -position end  sim:/processor/start
+add wave -position end  sim:/processor/SM_SIG_LEN
+add wave -position end  sim:/processor/running_cores
+add wave -position end  sim:/processor/round
+add wave -position end  sim:/processor/reset_signals
+add wave -position end  sim:/processor/reset_signals[0]
+add wave -position end  sim:/processor/read_signal
+add wave -position end  sim:/processor/read
+add wave -position end  sim:/processor/NO_OF_ROWS
+add wave -position end  sim:/processor/NO_OF_CORES
+add wave -position end  sim:/processor/MUX_SEL_SIG
+add wave -position end  sim:/processor/k
+add wave -position end  sim:/processor/j
+add wave -position end  sim:/processor/INSTRUCTION_LEN
+add wave -position end  sim:/processor/i
+add wave -position end  sim:/processor/finish_process
+add wave -position end  sim:/processor/finish_cores
+add wave -position end  sim:/processor/data_out
+add wave -position end  sim:/processor/DATA_LEN
+add wave -position end  sim:/processor/data_in
+add wave -position end  sim:/processor/clk
+add wave -position end  sim:/processor/C_BUS_SIG_LEN
+add wave -position end  sim:/processor/begin_process
+add wave -position end  sim:/processor/ALU_SIG_LEN
+add wave -position end  sim:/processor/ADDRESS_LEN
+add wave -position end  sim:/processor/address
+force -freeze sim:/processor/start 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/start 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+vsim -gui work.test_processor
+# End time: 20:11:24 on Jul 14,2021, Elapsed time: 0:05:28
+# Errors: 0, Warnings: 10
+# vsim -gui work.test_processor 
+# Start time: 20:11:24 on Jul 14,2021
+# Loading work.test_processor
+# Loading work.processor
+# Loading work.ram
+# Loading work.top_module
+# Loading work.counter
+# Loading work.state_machine
+# Loading work.alu
+# Loading work.registor_unit
+# Loading work.ins_registor
+# Loading work.registor_with_inc
+# Loading work.registor_no_inc
+# Loading work.data_registor
+# Loading work.address_registor
+# Loading work.mux
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'AC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/AC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 74
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(74): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RA'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RA File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 87
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(87): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RB'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RB File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 100
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(100): [TFMPC] - Missing connection for port 'reset'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RC'.  Expected 6, found 5.
+#    Time: 0 us  Iteration: 0  Instance: /test_processor/Processor/CORE[0]/INS/RU/RC File: C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v Line: 113
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v(113): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# Started
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 20:11:50 on Jul 14,2021, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 9

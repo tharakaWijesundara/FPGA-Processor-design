@@ -334,6 +334,10 @@ always @(posedge clk) begin
                 smInput <= 6'd57;
                 IRIn <= 6'd57;
             end
+            6'd60 : begin
+                smInput <= 6'd60;
+                IRIn <= 6'd1;
+            end
             default: begin
                 counter <= 2'd0;
                 IRIn <= 6'd1;

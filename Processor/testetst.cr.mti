@@ -1,0 +1,106 @@
+C:/Users/ASUS/Desktop/Processor_design/Processor/registor_no_inc.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/registor_no_inc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registor_no_inc
+
+Top level modules:
+	registor_no_inc
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_processor
+
+Top level modules:
+	test_processor
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registor_unit
+
+Top level modules:
+	registor_unit
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/counter.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/top_module.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/top_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/data_registor.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/data_registor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_registor
+
+Top level modules:
+	data_registor
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/ins_registor.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/ins_registor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ins_registor
+
+Top level modules:
+	ins_registor
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/alu.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/mux.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registor_with_inc
+
+Top level modules:
+	registor_with_inc
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/address_registor.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/address_registor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module address_registor
+
+Top level modules:
+	address_registor
+
+} {} {}} C:/Users/ASUS/Desktop/Processor_design/Processor/state_machine.v {1 {vlog -work work -stats=none C:/Users/ASUS/Desktop/Processor_design/Processor/state_machine.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module state_machine
+
+Top level modules:
+	state_machine
+
+} {} {}} {C:/Users/ASUS/Desktop/Processor_design/Processor/ram - 4x4.v} {1 {vlog -work work -stats=none {C:/Users/ASUS/Desktop/Processor_design/Processor/ram - 4x4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} {C:/Users/ASUS/Desktop/Processor_design/Processor/ram 3x3.v} {1 {vlog -work work -stats=none {C:/Users/ASUS/Desktop/Processor_design/Processor/ram 3x3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} {C:/Users/ASUS/Desktop/Processor_design/Processor/ram 19x24.v} {1 {vlog -work work -stats=none {C:/Users/ASUS/Desktop/Processor_design/Processor/ram 19x24.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}}

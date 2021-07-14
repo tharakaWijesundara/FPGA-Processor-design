@@ -62,6 +62,9 @@ always @(A or select or reset) begin
             3'b110 : begin
                 finish <= 1;
             end
+            3'b111 : begin
+                out <= B ^ A;
+            end
         endcase  
     end
 end

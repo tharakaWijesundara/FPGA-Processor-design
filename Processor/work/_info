@@ -1,0 +1,333 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/OtherActivities/FPGA/Processor_design/Processor/Test_benches
+vaddress_registor
+Z0 !s110 1626270779
+!i10b 1
+!s100 abM:O4FQ]VS3b?GGFE=ME2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I213;oaIQ6F[z;HLdRVMlD3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ASUS/Desktop/Processor_design/Processor
+w1626119315
+8C:/Users/ASUS/Desktop/Processor_design/Processor/address_registor.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/address_registor.v
+!i122 0
+L0 1 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1626270778.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/address_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/address_registor.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+!s110 1626272319
+!i10b 1
+!s100 Qm;JMIja]maH7JLhg[T@[1
+R1
+Ia2mCk<4;>1_Q?EcG9jhTl0
+R2
+R3
+w1626272240
+8C:/Users/ASUS/Desktop/Processor_design/Processor/alu.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/alu.v
+!i122 23
+L0 6 67
+R4
+r1
+!s85 0
+31
+!s108 1626272319.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/alu.v|
+!i113 1
+R5
+R6
+vcounter
+!s110 1626272511
+!i10b 1
+!s100 _HXe>:<Kf]1^`dSkP7UNU3
+R1
+IZnT`PZIlE:<da<@dai6m<3
+R2
+R3
+w1626272435
+8C:/Users/ASUS/Desktop/Processor_design/Processor/counter.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/counter.v
+!i122 27
+L0 1 350
+R4
+r1
+!s85 0
+31
+!s108 1626272511.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/counter.v|
+!i113 1
+R5
+R6
+vdata_registor
+R0
+!i10b 1
+!s100 5LW5FGELAX[Fll;RH0B8e0
+R1
+Ibj:e>9?Dlc865^P[]5QQK2
+R2
+R3
+w1624980422
+8C:/Users/ASUS/Desktop/Processor_design/Processor/data_registor.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/data_registor.v
+!i122 3
+L0 1 22
+R4
+r1
+!s85 0
+31
+Z7 !s108 1626270779.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/data_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/data_registor.v|
+!i113 1
+R5
+R6
+vins_registor
+R0
+!i10b 1
+!s100 HaBBXzf0kQ^@@=5GzG3=L0
+R1
+IQkTIQT]l1nR]=e<S0f[ZY2
+R2
+R3
+w1625492138
+8C:/Users/ASUS/Desktop/Processor_design/Processor/ins_registor.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/ins_registor.v
+!i122 4
+L0 1 26
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/ins_registor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/ins_registor.v|
+!i113 1
+R5
+R6
+vmux
+!s110 1626270780
+!i10b 1
+!s100 8IcR>8_6T[eXX<S[BT8@k0
+R1
+IKbCESZ5GoKoTWnheSB@;J1
+R2
+R3
+w1625629967
+8C:/Users/ASUS/Desktop/Processor_design/Processor/mux.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/mux.v
+!i122 5
+L0 1 36
+R4
+r1
+!s85 0
+31
+!s108 1626270780.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/mux.v|
+!i113 1
+R5
+R6
+vprocessor
+Z8 !s110 1626273345
+!i10b 1
+!s100 o3jkCdk3nDI2obZCB=eU=1
+R1
+Ig@@l7TSEfh8R?nYo?HAcF1
+R2
+R3
+w1626273162
+8C:/Users/ASUS/Desktop/Processor_design/Processor/processor.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/processor.v
+!i122 29
+L0 1 230
+R4
+r1
+!s85 0
+31
+Z9 !s108 1626273345.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/processor.v|
+!i113 1
+R5
+R6
+vram
+R8
+!i10b 1
+!s100 ]TiFVG?WmjZajo0cSn?nQ2
+R1
+I_XX_EndW3b>LfSG5Bg6Bj1
+R2
+R3
+w1626273062
+8C:/Users/ASUS/Desktop/Processor_design/Processor/ram.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/ram.v
+!i122 30
+L0 2 46
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/ram.v|
+!i113 1
+R5
+R6
+vregistor_no_inc
+Z10 !s110 1626270781
+!i10b 1
+!s100 MALHaQ758f<^;ai:zIoS53
+R1
+IQ]>_m7QBH34EEVH@g:^BY3
+R2
+R3
+w1624511214
+8C:/Users/ASUS/Desktop/Processor_design/Processor/registor_no_inc.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/registor_no_inc.v
+!i122 10
+L0 1 21
+R4
+r1
+!s85 0
+31
+Z11 !s108 1626270781.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/registor_no_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/registor_no_inc.v|
+!i113 1
+R5
+R6
+vregistor_unit
+R10
+!i10b 1
+!s100 XhImab=aF0DcCh]z:Pkb[1
+R1
+IQJF6o1;iQH9PeD1>77Q<k0
+R2
+R3
+w1624980482
+8C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v
+!i122 11
+L0 1 219
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/registor_unit.v|
+!i113 1
+R5
+R6
+vregistor_with_inc
+R10
+!i10b 1
+!s100 4]GbXMPI7_W[aji=U;YZC2
+R1
+IfGVY:5cY2G:G;UMKBnl:k2
+R2
+R3
+w1625576207
+8C:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v
+!i122 12
+L0 1 38
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/registor_with_inc.v|
+!i113 1
+R5
+R6
+vstate_machine
+!s110 1626272512
+!i10b 1
+!s100 IDJD=o>Z2h8z_:mdZGjlB0
+R1
+IfI5omTZQ=lW4dD8knlVF`1
+R2
+R3
+w1626272482
+8C:/Users/ASUS/Desktop/Processor_design/Processor/state_machine.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/state_machine.v
+!i122 28
+L0 1 901
+R4
+r1
+!s85 0
+31
+!s108 1626272512.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/state_machine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/state_machine.v|
+!i113 1
+R5
+R6
+vtest_processor
+!s110 1626270928
+!i10b 1
+!s100 2M=5:<4hTO;nJ6;P;@Q8F2
+R1
+I=PWOR:a;j9DIo]3@AM1<S2
+R2
+R3
+w1625644488
+8C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v
+!i122 16
+L0 3 24
+R4
+r1
+!s85 0
+31
+!s108 1626270928.000000
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/Test_benches/test_processor.v|
+!i113 1
+R5
+R6
+vtop_module
+R10
+!i10b 1
+!s100 `?FacgTh5jkD`[a>QgCgA0
+R1
+I6`MG;0E3b[eTUQHd5<@Ua3
+R2
+R3
+w1625162862
+8C:/Users/ASUS/Desktop/Processor_design/Processor/top_module.v
+FC:/Users/ASUS/Desktop/Processor_design/Processor/top_module.v
+!i122 14
+L0 1 124
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/Processor_design/Processor/top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/Processor_design/Processor/top_module.v|
+!i113 1
+R5
+R6
